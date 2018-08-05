@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Portfolio - Isaac Teuscher</title>
+    <meta name="description" content="">
+    <meta name="author" content="Isaac Teuscher">
+    <meta name="keywords" content="Isaac Teuscher, Isaac H Teuscher, iteuscher, teuscher, isaac henry teuscher, bio, website">
+
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=yes">
+
+    <!-- OS Compatibility
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Fonts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/uikit.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/portfoliopage.css">
+    <!-- <link rel="stylesheet" href="//daneden.github.io/animate.css/animate.min.css"> -->
+
+    <!-- Micron.js -->
+    <link href="https://unpkg.com/webkul-micron@1.1.6/dist/css/micron.min.css" type="text/css" rel="stylesheet">
+    <script src="https://unpkg.com/webkul-micron@1.1.6/dist/script/micron.min.js" type="text/javascript"></script>
+
+    <!-- javascripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script> -->
+
+
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="shortcut icon" type="image/x" href="images/favicon.ico">
+
+</head>
+
+<body id="body">
+
+    <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <div title="Shuffle Color" data-micron="jelly" data-micron-duration=".65" data-micron-bind="true" data-micron-id="shuffle-svg"
+        data-micron-timing="ease-in" class="shuffle-button" id="shuffle_button" onclick="colorSwap()">
+
+        <div title="Shuffle Color" data-micron="jelly" data-micron-duration=".65" data-micron-timing="ease-in" class="shuffle-icon"
+            onclick="colorSwap()">
+            <svg id="shuffle-svg" data-micron="jelly" data-micron-duration=".65" data-micron-timing="ease-in" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"
+                aria-labelledby="title" role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <title>Shuffle</title>
+                <path data-micron="jelly" data-micron-duration=".65" data-micron-bind="true" data-micron-id="shuffle-svg" data-micron-timing="ease-in"
+                    d="M53 24l8-8-8-8" stroke-width="4" stroke-miterlimit="10" stroke-linecap="round" stroke="#fff" fill="none"
+                    data-name="layer2" stroke-linejoin="round"></path>
+                <path data-micron="jelly" data-micron-duration=".65" data-micron-bind="true" data-micron-id="shuffle-svg" data-micron-timing="ease-in"
+                    d="M53 54l8-8-8-8" stroke-width="4" stroke-miterlimit="10" stroke-linecap="round" stroke="#fff" fill="none"
+                    data-name="layer1" stroke-linejoin="round"></path>
+                <path data-micron="jelly" data-micron-duration=".65" data-micron-bind="true" data-micron-id="shuffle-svg" data-micron-timing="ease-in"
+                    stroke-width="4" stroke-miterlimit="10" stroke-linecap="round" stroke="#fff" fill="none" d="M61 16H47c-4 0-7 1-9 4L22 42c-3 4-5 4-9 4H2"
+                    data-name="layer2" stroke-linejoin="round"></path>
+                <path data-micron="jelly" data-micron-duration=".65" data-micron-bind="true" data-micron-id="shuffle-svg" data-micron-timing="ease-in"
+                    stroke-width="4" stroke-miterlimit="10" stroke-linecap="round" stroke="#fff" fill="none" d="M27.1 27L22 20c-3-4-5-4-9-4H2m59 30H47c-4 0-7-1-9-4l-5-6"
+                    data-name="layer1" stroke-linejoin="round"></path>
+            </svg>
+        </div>
+
+    </div>
+
+    <!-- Nav menu start -->
+    <div title="Menu" class="button_container" id="toggle">
+        <span class="top"></span>
+        <span class="middle"></span>
+        <span class="bottom"></span>
+    </div>
+
+    <div class="overlay" id="overlay">
+        <nav class="overlay-menu">
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About Me</a>
+                </li>
+                <li>
+                    <a href="#">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#">Resume</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Nav menu end -->
+
+
+    <div class="content uk-container" >
+<!-- hijacking: on/off - animation: none/scaleDown/rotate/gallery/catch/opacity/fixed/parallax -->
+<!-- <body data-hijacking="off" data-animation="rotate"> -->
+
+                <div id='portfolio-container' data-hijacking="off" data-animation="scaleDown">
+
+                        <section class="cd-section visible" id="heading">
+                            <div class="uk-flex uk-flex-middle uk-flex-center uk-padding-large" style="text-align: center">
+                                <div>
+                                    <h2></h2>
+                                    <h1> Portfolio </h1>
+                                    <p>A showcase of some of the projects I've worked on. 
+                                        <br> Most are CS / Web Development related.</p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="cd-section">
+                            <div>
+                                <div class="project">
+                                    <h2>
+                                        <a href="work/zang" title="View project">Zang.io</a>
+                                    </h2>
+                                    <h3>
+                                        (Zang/Avaya Marketing Site)
+                                    </h3>
+                                    <p>
+                                        Brochureware marketing site built on an Express, React, and Node stack.
+                                    </p>
+                                    <a class="button-hover" href="work/zang">View project</a>
+                                </div>
+                                <div class="project-img">
+                                    <a href="work/zang" title="View project">
+                                        <img src="work/zang/zang-table.png" />
+                                    </a>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="cd-section">
+                            <div>
+                                <div class="project">
+                                    <h2>
+                                        <a href="work/achieve-digital" title="View project">Achieve Digital</a>
+                                    </h2>
+                                    <h3>
+                                        (DXC Demand Gen Campaign)
+                                    </h3>
+                                    <p>
+                                        Digital campaign with React microsite as central marketing hub.
+                                    </p>
+                                    <a class="button-hover" href="work/achieve-digital">View project</a>
+                                </div>
+                                <div class="project-img">
+                                    <a href="work/achieve-digital" title="View project">
+                                        <img src="work/achieve-digital/achieve-digital-campaign-image.png" alt="Satellite" />
+                                    </a>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="cd-section">
+                            <div>
+                                <div class="project">
+                                    <h2>
+                                        <a href="work/power-forward" title="View project">Power Forward</a>
+                                    </h2>
+                                    <h3>
+                                        (CSC Demand Gen Campaign)
+                                    </h3>
+                                    <p>Digital campaign with AngularJS microsite as central marketing hub.
+                                    </p>
+                                    <a class="button-hover" href="work/power-forward">View project</a>
+                                </div>
+                                <div class="project-img">
+                                    <a href="work/power-forward" title="View project">
+                                        <img src="work/power-forward/power-forward-campaign-image.png" alt="Digital Transformation Train" />
+                                    </a>
+                                </div>
+                            </div>
+                        </section>
+                            
+
+                        <nav>
+                            <ul class="cd-vertical-nav">
+                                <li>
+                                    <a href="#0" class="cd-prev inactive">Next</a>
+                                </li>
+                                <li>
+                                    <a href="#0" class="cd-next">Prev</a>
+                                </li>
+                            </ul>
+                        </nav> <!-- .cd-vertical-nav -->
+
+
+                        <!-- Footer start -->
+                        <footer class="footer uk-flex uk-flex-center uk-flex-middle uk-text-center uk-position-relative uk-position-bottom">
+                            <h6 style="margin-bottom: 12px; padding-right: 23px;">
+                                Design & Code by Isaac&nbsp;
+                                <a style="margin-bottom: 5px" href="" uk-scroll uk-totop></a>&nbsp;All Rights Reserved.
+                            </h6>
+                        </footer>
+                        <!-- Footer end -->
+
+                </div>
+
+
+
+    </div>
+
+    <!-- Javascripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+    <script src="js/uikit.js"></script>
+    <script src="js/uikit-icons.js"></script>
+
+    <script src="js/main.js"></script>
+
+    <script src="mins/velocity.min.js"></script>
+    <script src="mins/velocity.ui.min.js"></script>
+    <script src="js/OLDportfolio.js"></script>
+
+
+    <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>
