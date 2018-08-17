@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+                  <title>dislaymobile</title>
+                  <g class="nc-icon-wrapper">
+                    <g fill="none" fill-rule="evenodd">
+                      <path fill="#D8D8D8" d="M29 43h6v11h-6z" />
+                      <path stroke="#979797" stroke-width="2" d="M25 55h14v1H25z" />
+                      <path fill="#868686" d="M2 8.996A2.993 2.993 0 0 1 4.996 6h54.008A2.997 2.997 0 0 1 62 8.996v33.008A2.993 2.993 0 0 1 59.004 45H4.996A2.997 2.997 0 0 1 2 42.004V8.996z"
+                      />
+                      <path fill="#B4DFFB" d="M5 9h54v33H5z" />
+                      <path fill="#FFF" d="M8 26h14v14H8z" />
+                      <path fill="#FFF" d="M25 26h14v14H25z" />
+                      <path fill="#FFF" d="M42 26h14v14H42z" />
+                      <path fill="#4796E7" d="M7 11h50v10H7z" />
+                      <circle cx="15" cy="31" r="3" fill="#4796E7" />
+                      <circle cx="32" cy="31" r="3" fill="#4796E7" />
+                      <circle cx="49" cy="31" r="3" fill="#4796E7" />
+                      <path fill="#595959" d="M45 34.998c0-.551.455-.998 1-.998h15c.552 0 1 .456 1 .998v27.004c0 .551-.455.998-1 .998H46c-.552 0-1-.456-1-.998V34.998z"
+                      />
+                      <path fill="#B4DFFB" d="M46 37h15v21H46z" />
+                      <path fill="#FFF" d="M48 48h11v10H48z" />
+                      <circle cx="53.5" cy="52.5" r="2.5" fill="#4796E7" />
+                      <path fill="#4796E7" d="M48 40h11v6H48z" />
+                      <circle cx="53.5" cy="60.5" r="1.5" fill="#868686" />
+                    </g>
+                  </g>
+                </svg>

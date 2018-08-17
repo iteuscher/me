@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+                    <title>diploma</title>
+                    <g class="nc-icon-wrapper">
+                      <g fill="none" fill-rule="evenodd">
+                        <path fill="#E6E6E6" d="M19.045 3H52v57H12V9.065z" />
+                        <path fill="#FFAF40" d="M35 52h8v12l-4-2.548L35 64z" />
+                        <path fill="#FF78C7" d="M39 55.131l-5 1.529-1.175-5.095L29 48l3.825-3.565L34 39.34l5 1.529 5-1.529 1.175 5.095L49 48l-3.825 3.565L44 56.66z"
+                        />
+                        <path fill="#979797" fill-rule="nonzero" d="M19 16h26.021v-2H19z" />
+                        <path fill="#979797" fill-rule="nonzero" d="M17 33h26.021v-2H17z" />
+                        <path fill="#979797" fill-rule="nonzero" d="M17 29h13v-2H17z" />
+                        <path fill="#979797" fill-rule="nonzero" d="M17 37h13v-2H17z" />
+                        <path fill="#979797" fill-rule="nonzero" d="M31 29h14v-2H31z" />
+                        <path fill="#CDCDCD" d="M19 3v6h-7z" />
+                      </g>
+                    </g>
+                  </svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+                    <title>signaturedoc</title>
+                    <g class="nc-icon-wrapper">
+                      <g fill="none" fill-rule="evenodd">
+                        <rect width="41" height="56" x="6" y="7" fill="#9F5757" rx="3" />
+                        <circle cx="26.5" cy="3.5" r="2.5" fill="#FF78C7" />
+                        <path fill="#ECECEC" d="M10 11h33v48H10z" />
+                        <path stroke="#979797" stroke-linecap="square" stroke-width="2" d="M16 19h19m-19 4h12m-12 4h6m4 0h6" />
+                        <g transform="rotate(-45 71.724 -16.96)">
+                          <path fill="#325AA6" d="M5 0h26v6H5z" />
+                          <path fill="#5EA7FF" d="M31 1h4v4h-4z" />
+                          <path stroke="#325AA6" stroke-linecap="square" stroke-width="2" d="M5 3H0m29 5h-8m8-2v2" />
+                        </g>
+                        <path fill="#FF78C7" d="M16 8a4 4 0 0 1 4-4h13c2.21 0 4 1.795 4 4v4H16V8z" />
+                        <path stroke="#325AA6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.811 49.368s3.415-8.184 4.453-6.404c1.038 1.78-.8 6.205-.8 6.205s1.381-3.582 2.485-2.55c1.103 1.03 1.143 3.28 1.143 3.28l2.884-2.5s1.463 3.895 3.695 3.198"
+                        />
+                      </g>
+                    </g>
+                  </svg>

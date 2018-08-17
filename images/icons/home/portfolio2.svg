@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+                  <title>code2</title>
+                  <g class="nc-icon-wrapper">
+                    <g fill="none" fill-rule="evenodd">
+                      <path fill="#595959" d="M0 8h64v44H0z" />
+                      <path stroke="#80D25B" stroke-linecap="square" stroke-width="2" d="M4 23h6" />
+                      <path stroke="#979797" stroke-linecap="square" stroke-width="2" d="M4 31h10" />
+                      <path stroke="#80D25B" stroke-linecap="square" stroke-width="2" d="M18 31h12M4 27h22" />
+                      <path stroke="#979797" stroke-linecap="square" stroke-width="2" d="M31 27h11m-28-4h19" />
+                      <path stroke="#E43535" stroke-linecap="square" stroke-width="2" d="M4 35h6" />
+                      <path stroke="#979797" stroke-linecap="square" stroke-width="2" d="M4 43h10" />
+                      <path stroke="#FFC05F" stroke-linecap="square" stroke-width="2" d="M18 43h12" />
+                      <path stroke="#E43535" stroke-linecap="square" stroke-width="2" d="M4 39h22" />
+                      <path stroke="#979797" stroke-linecap="square" stroke-width="2" d="M31 39h18" />
+                      <path stroke="#FFC05F" stroke-linecap="square" stroke-width="2" d="M14 35h9" />
+                      <path fill="#ECECEC" d="M0 7h64v7H0z" />
+                      <circle cx="3.5" cy="10.5" r="1.5" fill="#E43535" />
+                      <circle cx="8.5" cy="10.5" r="1.5" fill="#FFC05F" />
+                      <circle cx="13.5" cy="10.5" r="1.5" fill="#80D25B" />
+                    </g>
+                  </g>
+                </svg>

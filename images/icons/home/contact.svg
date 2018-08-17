@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+                <title>chat</title>
+                <g class="nc-icon-wrapper">
+                  <g fill="none" fill-rule="evenodd">
+                    <path fill="#E43535" d="M8.203 35.108h31.8A1.995 1.995 0 0 0 42 33.111V11.105a1.998 1.998 0 0 0-1.997-1.997H3.997A1.995 1.995 0 0 0 2 11.105V42l6.203-6.892z"
+                    />
+                    <path fill="#E43535" d="M8.203 34h31.8A1.995 1.995 0 0 0 42 32.003V9.997A1.998 1.998 0 0 0 40.003 8H3.997A1.995 1.995 0 0 0 2 9.997V40.892L8.203 34z"
+                    />
+                    <path fill="#5EA7FF" d="M57.797 50h-31.8A1.995 1.995 0 0 1 24 48.003V25.997c0-1.102.894-1.997 1.997-1.997h36.006c1.105 0 1.997.894 1.997 1.997V56.892L57.797 50z"
+                    />
+                    <circle cx="37" cy="37" r="2" fill="#D8D8D8" />
+                    <circle cx="15" cy="21" r="2" fill="#D8D8D8" />
+                    <circle cx="44" cy="37" r="2" fill="#D8D8D8" />
+                    <circle cx="22" cy="21" r="2" fill="#D8D8D8" />
+                    <circle cx="51" cy="37" r="2" fill="#D8D8D8" />
+                    <circle cx="29" cy="21" r="2" fill="#D8D8D8" />
+                  </g>
+                </g>
+              </svg>

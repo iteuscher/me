@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>About - Isaac Teuscher</title>
+  <meta name="description" content="">
+  <meta name="author" content="Isaac Teuscher">
+  <meta name="keywords" content="Isaac Teuscher, Isaac H Teuscher, iteuscher, teuscher, isaac henry teuscher, bio, website">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=yes">
+
+  <!-- OS Compatibility
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- [if lt IE 9]
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    [endif] -->
+
+  <!-- Fonts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/uikit.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- <link rel="stylesheet" href="//daneden.github.io/animate.css/animate.min.css"> -->
+   
+    <!-- Micron.js -->
+    <link href="https://unpkg.com/webkul-micron@1.1.6/dist/css/micron.min.css" type="text/css" rel="stylesheet">
+    <script src="https://unpkg.com/webkul-micron@1.1.6/dist/script/micron.min.js" type="text/javascript"></script>
+
+  <!-- javascripts
+      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script> -->
+    
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="shortcut icon" type="image/x" href="images/favicon.ico" >
+
+</head>
+
+<body id="body">
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
+    <div title="Shuffle Color" data-micron="jelly" data-micron-duration=".65" data-micron-timing="ease-in" id="shuffle-icon"
+      class="shuffle-icon" onclick="colorSwap()">
+      <svg id="shuffle-svg" data-micron="jelly" data-micron-duration=".65" data-micron-timing="ease-in" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"
+        aria-labelledby="title" role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <title>Shuffle</title>
+        <path data-micron="jelly" data-micron-duration=".65" data-micron-bind="true" data-micron-id="shuffle-svg" data-micron-timing="ease-in"
+          d="M53 24l8-8-8-8" stroke-width="4" stroke-miterlimit="10" stroke-linecap="round" stroke="#fff" fill="none" data-name="layer2"
+          stroke-linejoin="round"></path>
+        <path data-micron="jelly" data-micron-duration=".65" data-micron-bind="true" data-micron-id="shuffle-svg" data-micron-timing="ease-in"
+          d="M53 54l8-8-8-8" stroke-width="4" stroke-miterlimit="10" stroke-linecap="round" stroke="#fff" fill="none" data-name="layer1"
+          stroke-linejoin="round"></path>
+        <path data-micron="jelly" data-micron-duration=".65" data-micron-bind="true" data-micron-id="shuffle-svg" data-micron-timing="ease-in"
+          stroke-width="4" stroke-miterlimit="10" stroke-linecap="round" stroke="#fff" fill="none" d="M61 16H47c-4 0-7 1-9 4L22 42c-3 4-5 4-9 4H2"
+          data-name="layer2" stroke-linejoin="round"></path>
+        <path data-micron="jelly" data-micron-duration=".65" data-micron-bind="true" data-micron-id="shuffle-svg" data-micron-timing="ease-in"
+          stroke-width="4" stroke-miterlimit="10" stroke-linecap="round" stroke="#fff" fill="none" d="M27.1 27L22 20c-3-4-5-4-9-4H2m59 30H47c-4 0-7-1-9-4l-5-6"
+          data-name="layer1" stroke-linejoin="round"></path>
+      </svg>
+    </div>
+    
+    <div title="Shuffle Color" data-micron="jelly" data-micron-duration=".65" data-micron-bind="true" data-micron-id="shuffle-svg"
+      data-micron-timing="ease-in" class="top-corner shuffle-button" id="shuffle_button" onclick="colorSwap()">
+    </div>
+    
+    
+    <!-- Nav menu start -->
+    <div title="Menu" class="button_container" id="toggle">
+      <span class="top"></span>
+      <span class="middle"></span>
+      <span class="bottom"></span>
+    </div>
+    
+    <div class="top-corner overlay" id="overlay">
+      <nav class="overlay-menu">
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="about.html">About Me</a>
+          </li>
+          <li>
+            <a href="portfolio.html">Portfolio</a>
+          </li>
+          <li>
+            <a href="resume.html">Resume</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- Nav menu end -->
+
+    
+  
+  <div class="content uk-container">
+
+            
+        <div class="uk-flex uk-flex-middle uk-flex-center uk-padding-large" style="text-align: center">
+          <div>
+            <div class="title title-2-line">
+              <h1> About Me </h1>
+            </div>
+            <img class="responsive-image-vertical" data-src="images/me/beach-portrait.JPG" alt="beach portrait of me" uk-img>
+              <p class="caption"> izek two-sure </p>
+
+              <!-- <p>I'm not going to pretend like I'm important and write this in third person like someone wrote it about me because that's
+              clearly not true.</p> -->
+
+              <p>I'm currently studying
+                <a href="https://it.et.byu.edu/about-it" target="_blank">Information Technology at BYU</a>.
+                <br>I have some CS proficency and am interested in UX design and web development.</p>
+
+
+                <!-- <p class="social-media-text">I'm also constantly fueling my anxiety by being on social media...</p> -->
+
+                <!-- SOCIAL MEDIA BUTTONS -->
+                <ul class="link-list">
+                  <!-- <li class="link-list__item">
+                    <a href="https://youtube.com/" class="link-list__link" aria-label="YouTube" aria-describedby="external">
+                      <svg class="link-list__icon link-list__icon--youtube" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#youtube"></use>
+                      </svg>
+                    </a>
+                  </li> -->
+
+                  <li class="link-list__item">
+                    <a href="https://www.instagram.com/isaac.teuscher/" class="link-list__link" aria-label="Instagram" aria-describedby="external">
+                      <svg class="instagram-background" class="link-list__icon link-list__icon--instagram" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+                        <use x="5.5" y="6" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use>
+                      </svg>
+                    </a>
+                  </li>                  
+                  <li class="link-list__item">
+                    <a href="https://www.facebook.com/isaac.teuscher" aria-label="Facebook" class="link-list__link" aria-describedby="external">
+                      <svg class="link-list__icon link-list__icon--facebook" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="link-list__item">
+                    <a href="https://twitter.com/ihteuscher" class="link-list__link" aria-label="Twitter" aria-describedby="external">
+                      <svg class="link-list__icon link-list__icon--twitter" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="link-list__item">
+                    <a href="https://github.com/iteuscher/" class="link-list__link" aria-label="GitHub" aria-describedby="external">
+                      <svg class="link-list__icon link-list__icon--github" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#github"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="link-list__item">
+                    <a href="https://codepen.io/iteuscher" class="link-list__link" aria-label="CodePen" aria-describedby="external">
+                      <svg class="link-list__icon link-list__icon--codepen" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#codepen"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="link-list__item">
+                    <a href="https://www.linkedin.com/in/isaacteuscher" class="link-list__link" aria-label="LinkedIn" aria-describedby="external">
+                      <svg class="link-list__icon link-list__icon--linkedin" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="link-list__item">
+                    <a href="https://medium.com/" class="link-list__link" aria-label="Medium" aria-describedby="external">
+                      <svg class="link-list__icon link-list__icon--medium" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#medium"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+
+                <!-- SVG sprite sheet -->
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" hidden>
+                  <symbol id="codepen" viewBox="0 0 48 48">
+                    <g transform="scale(0.046875 0.046875)">
+                      <path d="M123.429 668l344.571 229.714v-205.143l-190.857-127.429zM88 585.714l110.286-73.714-110.286-73.714v147.429zM556 897.714l344.571-229.714-153.714-102.857-190.857 127.429v205.143zM512 616l155.429-104-155.429-104-155.429 104zM277.143 458.857l190.857-127.429v-205.143l-344.571 229.714zM825.714 512l110.286 73.714v-147.429zM746.857 458.857l153.714-102.857-344.571-229.714v205.143zM1024 356v312c0 14.286-7.429 28.571-19.429 36.571l-468 312c-7.429 4.571-16 7.429-24.571 7.429s-17.143-2.857-24.571-7.429l-468-312c-12-8-19.429-22.286-19.429-36.571v-312c0-14.286 7.429-28.571 19.429-36.571l468-312c7.429-4.571 16-7.429 24.571-7.429s17.143 2.857 24.571 7.429l468 312c12 8 19.429 22.286 19.429 36.571z"></path>
+                    </g>
+                  </symbol>
+                  <symbol id="github" viewBox="0 0 48 48">
+                    <g transform="scale(0.046875 0.046875)">
+                      <path d="M512.008 12.642c-282.738 0-512.008 229.218-512.008 511.998 0 226.214 146.704 418.132 350.136 485.836 25.586 4.738 34.992-11.11 34.992-24.632 0-12.204-0.48-52.542-0.696-95.324-142.448 30.976-172.504-60.41-172.504-60.41-23.282-59.176-56.848-74.916-56.848-74.916-46.452-31.778 3.51-31.124 3.51-31.124 51.4 3.61 78.476 52.766 78.476 52.766 45.672 78.27 119.776 55.64 149.004 42.558 4.588-33.086 17.852-55.68 32.506-68.464-113.73-12.942-233.276-56.85-233.276-253.032 0-55.898 20.004-101.574 52.76-137.428-5.316-12.9-22.854-64.972 4.952-135.5 0 0 43.006-13.752 140.84 52.49 40.836-11.348 84.636-17.036 128.154-17.234 43.502 0.198 87.336 5.886 128.256 17.234 97.734-66.244 140.656-52.49 140.656-52.49 27.872 70.528 10.35 122.6 5.036 135.5 32.82 35.856 52.694 81.532 52.694 137.428 0 196.654-119.778 239.95-233.79 252.624 18.364 15.89 34.724 47.046 34.724 94.812 0 68.508-0.596 123.644-0.596 140.508 0 13.628 9.222 29.594 35.172 24.566 203.322-67.776 349.842-259.626 349.842-485.768 0-282.78-229.234-511.998-511.992-511.998z"></path>
+                    </g>
+                  </symbol>
+                  <symbol id="medium" viewBox="0 0 48 48">
+                    <g transform="scale(0.046875 0.046875)">
+                      <path d="M341.143 240.571v670.286c0 17.714-8.571 34.286-28 34.286-6.857 0-13.143-1.714-18.857-4.571l-265.714-133.143c-16-8-28.571-28.571-28.571-45.714v-651.429c0-14.286 6.857-27.429 22.286-27.429 9.143 0 17.143 4.571 25.143 8.571l292 146.286c0.571 0.571 1.714 2.286 1.714 2.857zM377.714 298.286l305.143 494.857-305.143-152v-342.857zM1024 308.571v602.286c0 18.857-10.857 32-29.714 32-9.714 0-18.857-2.857-26.857-7.429l-252-125.714zM1022.286 240c0 2.286-295.429 481.714-318.286 518.286l-222.857-362.286 185.143-301.143c6.286-10.286 17.714-16 29.714-16 5.143 0 10.286 1.143 14.857 3.429l309.143 154.286c1.143 0.571 2.286 1.714 2.286 3.429z"></path>
+                    </g>
+                  </symbol>
+                  <symbol id="twitter" viewBox="0 0 48 48">
+                    <g transform="scale(0.046875 0.046875)">
+                      <path d="M1024 226.4c-37.6 16.8-78.2 28-120.6 33 43.4-26 76.6-67.2 92.4-116.2-40.6 24-85.6 41.6-133.4 51-38.4-40.8-93-66.2-153.4-66.2-116 0-210 94-210 210 0 16.4 1.8 32.4 5.4 47.8-174.6-8.8-329.4-92.4-433-219.6-18 31-28.4 67.2-28.4 105.6 0 72.8 37 137.2 93.4 174.8-34.4-1-66.8-10.6-95.2-26.2 0 0.8 0 1.8 0 2.6 0 101.8 72.4 186.8 168.6 206-17.6 4.8-36.2 7.4-55.4 7.4-13.6 0-26.6-1.4-39.6-3.8 26.8 83.4 104.4 144.2 196.2 146-72 56.4-162.4 90-261 90-17 0-33.6-1-50.2-3 93.2 59.8 203.6 94.4 322.2 94.4 386.4 0 597.8-320.2 597.8-597.8 0-9.2-0.2-18.2-0.6-27.2 41-29.4 76.6-66.4 104.8-108.6z"></path>
+                    </g>
+                  </symbol>
+                  <symbol id="youtube" viewBox="0 0 48 48">
+                    <g transform="scale(0.046875 0.046875)">
+                      <path d="M406.286 644.571l276.571-142.857-276.571-144.571v287.429zM512 152c215.429 0 358.286 10.286 358.286 10.286 20 2.286 64 2.286 102.857 43.429 0 0 31.429 30.857 40.571 101.714 10.857 82.857 10.286 165.714 10.286 165.714v77.714s0.571 82.857-10.286 165.714c-9.143 70.286-40.571 101.714-40.571 101.714-38.857 40.571-82.857 40.571-102.857 42.857 0 0-142.857 10.857-358.286 10.857v0c-266.286-2.286-348-10.286-348-10.286-22.857-4-74.286-2.857-113.143-43.429 0 0-31.429-31.429-40.571-101.714-10.857-82.857-10.286-165.714-10.286-165.714v-77.714s-0.571-82.857 10.286-165.714c9.143-70.857 40.571-101.714 40.571-101.714 38.857-41.143 82.857-41.143 102.857-43.429 0 0 142.857-10.286 358.286-10.286v0z"></path>
+                    </g>
+                  </symbol>
+                  <symbol id="facebook" viewbox="0 0 48 48" >
+                    <g transform="scale(1.2 1.2)">
+                      <path d="M36.71 34.68a2 2 0 0 1-2 2h-9.38V22.49h4.77l.72-5.49h-5.49v-3.58c0-1.61.45-2.7 2.75-2.7H31v-5a41.29 41.29 0 0 0-4.28-.22c-4.23 0-7.12 2.59-7.12 7.33V17h-4.78v5.54h4.79v14.17H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h32.69a2 2 0 0 1 2 2z"></path>
+                    </g>
+                  </symbol>
+                  <symbol id="instagram" viewBox="0 0 48 48">
+                    <g transform="scale(1.5 1.5)">
+                      <path cx="20" d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path>
+                    </g>
+                  </symbol>
+                  <symbol id="linkedin" viewBox="0 0 48 48">
+                    <g transform="scale(2 2)">
+                      <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path>
+                    </g>
+                  </symbol>
+
+                </svg>
+                <!-- end social media icons -->
+
+                <p class="social-media-text-2">I'm also constantly fueling my anxiety by being on social media...</p>
+
+              </div>
+            </div>
+            
+
+              <section class="cd-timeline js-cd-timeline">
+                <div class="cd-timeline__container">
+
+
+                  <div class="cd-timeline__block js-cd-block">
+                    <div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
+                      <svg xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 48 48" width="48" height="48">
+                        <title>home 52</title>
+                        <g class="nc-icon-wrapper">
+                          <g class="nc-icon-wrapper">
+                            <path fill="#C9514B" d="M8 18V7a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v6.09L8 18z" />
+                            <path fill="#E6E6E6" d="M24 3L7 18.111V44a2 2 0 0 0 2 2h30a2 2 0 0 0 2-2V18.11L24 3z" />
+                            <path fill="#E86C60" d="M46 24a.999.999 0 0 1-.673-.26L24 4.35 2.673 23.74a1 1 0 1 1-1.346-1.48l22-20a1.003 1.003 0 0 1 1.346 0l22 20A1 1 0 0 1 46 24z"
+                            />
+                            <path fill="#A67C52" d="M28 33h-8a1 1 0 0 0-1 1v12h10V34a1 1 0 0 0-1-1z" />
+                            <path fill="#43A6DD" d="M28 27h-8a1 1 0 0 1-1-1v-6a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1z" />
+                            <path fill="#72C472" d="M14.314 46c.435-.91.686-1.924.686-3a7 7 0 1 0-14 0c0 1.076.251 2.09.686 3h12.628z" />
+                            <path fill="#72C472" d="M46.314 46c.435-.91.686-1.924.686-3a7 7 0 1 0-14 0c0 1.076.251 2.09.686 3h12.628z" />
+                          </g>
+                        </g>
+                      </svg>
+                    </div>
+                    <!-- cd-timeline__img -->
+              
+                    <div class="cd-timeline__content js-cd-content">
+                      <h2>Growing Up...</h2>
+                        <img class="city-skyline" src="images/other/San Francisco.png" alt="San Francisco" />
+                        <p>I grew up in the San Francisco Bay Area.
+                          <a href="https://en.wikipedia.org/wiki/Alameda,_California" target="_blank">Alameda</a> to be precise.</p>
+                      <!-- <span class="cd-timeline__date">Birth - 2018 </span> -->
+                    </div>
+                    <!-- cd-timeline__content -->
+                  </div>
+                  <!-- cd-timeline__block -->
+
+
+                  <!-- <div class="cd-timeline__block js-cd-block">
+                    <div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
+                      <img src="img/cd-icon-picture.svg" alt="Picture">
+                    </div>
+                    <div class="cd-timeline__content js-cd-content">
+                      <h2>CS Projects</h2>
+                      <p>Throughout highschool I made websites, games, and other computer science projects for class work and for fun. I also
+                        led the school's Computer Science club and served on the STEM committee.
+                    </div>
+                  </div> -->
+
+
+                  <div class="cd-timeline__block js-cd-block">
+                    <div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
+                      <svg style="border-radius: 10px;" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+                        <title>code2</title>
+                        <g class="nc-icon-wrapper">
+                          <g fill="none" fill-rule="evenodd">
+                            <path fill="#595959" d="M0 8h64v44H0z" />
+                            <path stroke="#80D25B" stroke-linecap="square" stroke-width="2" d="M4 23h6" />
+                            <path stroke="#979797" stroke-linecap="square" stroke-width="2" d="M4 31h10" />
+                            <path stroke="#80D25B" stroke-linecap="square" stroke-width="2" d="M18 31h12M4 27h22" />
+                            <path stroke="#979797" stroke-linecap="square" stroke-width="2" d="M31 27h11m-28-4h19" />
+                            <path stroke="#E43535" stroke-linecap="square" stroke-width="2" d="M4 35h6" />
+                            <path stroke="#979797" stroke-linecap="square" stroke-width="2" d="M4 43h10" />
+                            <path stroke="#FFC05F" stroke-linecap="square" stroke-width="2" d="M18 43h12" />
+                            <path stroke="#E43535" stroke-linecap="square" stroke-width="2" d="M4 39h22" />
+                            <path stroke="#979797" stroke-linecap="square" stroke-width="2" d="M31 39h18" />
+                            <path stroke="#FFC05F" stroke-linecap="square" stroke-width="2" d="M14 35h9" />
+                            <path fill="#ECECEC" d="M0 7h64v7H0z" />
+                            <circle cx="3.5" cy="10.5" r="1.5" fill="#E43535" />
+                            <circle cx="8.5" cy="10.5" r="1.5" fill="#FFC05F" />
+                            <circle cx="13.5" cy="10.5" r="1.5" fill="#80D25B" />
+                          </g>
+                        </g>
+                      </svg>
+                    </div>
+                    <!-- cd-timeline__img -->
+                  
+                    <div class="cd-timeline__content js-cd-content">
+                      <h2>The Opportunities Hub</h2>
+                      <div style="width:50%; margin: 0 auto; background: white;">
+                        <img src="images/portfolio/theoh.png" alt="The OH!" />
+                      </div>
+                      <p>I worked with the Head-Royce Center for Community Engagement to develop and launch a 
+                        website and database to organize and give student's access to enrichment opportunities. 
+                      </p>
+                      <a href="https://hrs-cce.github.io/the-oh/" class="button-hover cd-timeline__read-more">Visit the site</a>
+                      <span class="cd-timeline__date">Jan 2017 </span>
+                    </div>
+                    <!-- cd-timeline__content -->
+                  </div>
+                  <!-- cd-timeline__block -->
+
+                  <div class="cd-timeline__block js-cd-block">
+                    <div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
+                      <svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                        <title>firecamp</title>
+                        <g class="nc-icon-wrapper">
+                          <g id="Outdoor-Activities-(142)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <path d="M32 42.689c7.732 0 14-6.268 14-14 0-5.498-8.315-22.226-8.315-18.503 0 3.723-1.385 5.56-2.366 4.973C29.237 11.515 33.177 5 32 5c-7.732 0-14 15.957-14 23.689 0 7.732 6.268 14 14 14z"
+                              id="Oval" fill="#E43535" />
+                            <g id="Group" transform="rotate(-15 212.042 -6.857)">
+                              <path d="M42 0H3v7h39c1.657 0 3-1.567 3-3.5S43.657 0 42 0z" id="Combined-Shape" fill="#9C4D4D" />
+                              <ellipse id="Oval-2" fill="#BD7575" cx="3" cy="3.5" rx="3" ry="3.5" />
+                            </g>
+                            <g id="Group-Copy" transform="rotate(-165 30.276 27.25)">
+                              <path d="M42 0H3v7h39c1.657 0 3-1.567 3-3.5S43.657 0 42 0z" id="Combined-Shape" fill="#9C4D4D" />
+                              <ellipse id="Oval-2" fill="#BD7575" cx="3" cy="3.5" rx="3" ry="3.5" />
+                            </g>
+                            <path d="M26.523 13.006s-5.607 7.431-5.607 12.892" id="Path-2" stroke="#FCC24C" stroke-width="2" stroke-linecap="round"
+                            />
+                          </g>
+                        </g>
+                      </svg>
+                    </div>
+                    <!-- cd-timeline__img -->
+                  
+                    <div class="cd-timeline__content js-cd-content">
+                      <h2>Eagle Scout</h2>
+                      <span>
+                           <img style="width:40%;"src="images/scouts/eagle.jpg" alt="Eagle Scout" />
+                      </span>
+                      <span>
+                          <img style="width:55%;"src="images/scouts/10hands.jpg" alt="10 hands" />
+                      </span>
+                        
+                      <p>I earned my Eagle Scout rank with Troop 16. For my Eagle Scout project I made 3D printed prosthetic hands for children in need. 
+                      </p>
+                      <a href="https://hrs-cce.github.io/the-oh/" class="button-hover cd-timeline__read-more">More on my Project</a>
+                      <span class="cd-timeline__date">Oct 2017 </span>
+                    </div>
+                    <!-- cd-timeline__content -->
+                  </div>
+                  <!-- cd-timeline__block -->
+
+
+                  <div class="cd-timeline__block js-cd-block">
+                    <div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
+                      <svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <title>running</title>
+                        <g class="nc-icon-wrapper">
+                          <defs>
+                            <path d="M40.889 48.205H58.81s5.157-6.212 2.285-10.057c-2.872-3.844-20.382-2.629-25.132-22.964 0 0-19.235 4.144-21.387-15.184 0 0-13.994 14.738-13.994 15.15l.679 5.751 39.627 27.304z"
+                              id="path-1" />
+                          </defs>
+                          <g id="Outdoor-Activities-(142)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="Path-48" transform="translate(2 3)">
+                              <mask id="mask-2" fill="#fff">
+                                <use xlink:href="#path-1" />
+                              </mask>
+                              <use id="Mask" fill="#80D25B" xlink:href="#path-1" />
+                              <path stroke="#595959" stroke-width="2" stroke-linecap="round" mask="url(#mask-2)" d="M-2 7.24l6.729 11.48 37.556 26.291H62"
+                              />
+                            </g>
+                            <path d="M36 51H12" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square" />
+                            <path d="M22 54h39" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square" />
+                            <path d="M21.327 23.905c-.491-.258-1.278-.263-1.778 0l-.574.301c-.49.259-.814.035-.719-.522l.11-.638c.094-.547-.144-1.296-.55-1.691l-.463-.452c-.398-.388-.285-.764.274-.846l.641-.093c.55-.08 1.188-.538 1.439-1.045l.286-.58c.246-.498.639-.508.89 0l.286.58c.245.498.878.964 1.438 1.045l.641.093c.549.08.68.45.275.846l-.464.452c-.397.387-.645 1.133-.55 1.69l.11.639c.094.547-.218.786-.719.522l-.573-.301z"
+                              id="Star-2" fill="#5B68C0" transform="rotate(29 20.438 21.438)" />
+                            <path d="M43.46 27L37 28.658" id="Path-47" stroke="#979797" stroke-width="2" stroke-linecap="round" />
+                            <path d="M45.46 31L39 32.658" id="Path-47-Copy" stroke="#979797" stroke-width="2" stroke-linecap="round" />
+                            <path d="M48.46 35L42 36.658" id="Path-47-Copy-2" stroke="#979797" stroke-width="2" stroke-linecap="round" />
+                          </g>
+                        </g>
+                      </svg>
+                    </div>
+                    <!-- cd-timeline__img -->
+                  
+                    <div class="cd-timeline__content js-cd-content">
+                      <h2>Cross-Country & Track</h2>
+                      <span>
+                        <img style="width:58%;" src="images/running/ncs.jpg" alt="Running at Regionals" />
+                      </span>
+                      <span>
+                        <img style="width:39%;" src="images/running/California-CIF-Cross-Country-State-Championships2016-8323_full.jpg" alt="State Cross-Country Meet"
+                        />
+                      </span>
+                  
+                      <p>Throughout High School I ran Cross-Country (5k) and Track (800, 1600, 3200). Since High School I've continued to run
+                        for fun. I log most of my runs on Strava.
+                      </p>
+                      <a href="https://www.strava.com/athletes/11419101" class="button-hover cd-timeline__read-more">Follow me on Strava</a>
+                      <!-- <span class="cd-timeline__date">Oct 2017 </span> -->
+                    </div>
+                    <!-- cd-timeline__content -->
+                  </div>
+                  <!-- cd-timeline__block -->
+
+
+                  <div class="cd-timeline__block js-cd-block">
+                    <div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+                        <title>options</title>
+                        <g class="nc-icon-wrapper">
+                          <g fill="none" fill-rule="evenodd">
+                            <path fill="#4796E7" d="M22.296 22.606L18 21.456l2.07-7.728 4.297 1.151a17.895 17.895 0 0 1 3.678-4.796l-2.223-3.85 6.928-4 2.223 3.85a17.895 17.895 0 0 1 5.992-.787L42.116 1l7.727 2.07-1.15 4.297a17.895 17.895 0 0 1 4.795 3.678l3.85-2.223 4 6.928-3.85 2.223c.61 1.968.865 3.994.787 5.992l4.296 1.151-2.07 7.727-4.296-1.15a17.895 17.895 0 0 1-3.678 4.795l2.223 3.85-6.928 4-2.223-3.85c-1.969.61-3.994.865-5.993.787l-1.15 4.296-7.728-2.07 1.151-4.296a17.895 17.895 0 0 1-4.796-3.678l-3.85 2.223-4-6.928 3.85-2.223a17.895 17.895 0 0 1-.787-5.993zm20.99 5.876a6 6 0 1 0-6-10.393 6 6 0 0 0 6 10.393z"
+                            />
+                            <path fill="#595959" d="M6.557 52.063H3.563V46.68h2.994a12.045 12.045 0 0 1 1.556-3.759l-2.116-2.116 3.807-3.807 2.116 2.116a12.045 12.045 0 0 1 3.759-1.556v-2.994h5.385v2.994c1.312.298 2.585.816 3.758 1.556l2.116-2.116 3.808 3.807-2.116 2.116a12.045 12.045 0 0 1 1.555 3.759h2.994v5.384h-2.994a12.045 12.045 0 0 1-1.555 3.759l2.116 2.116-3.808 3.808-2.116-2.117a12.045 12.045 0 0 1-3.758 1.556v2.994h-5.385v-2.994a12.045 12.045 0 0 1-3.759-1.556l-2.116 2.117-3.807-3.808 2.116-2.116a12.045 12.045 0 0 1-1.556-3.759zm14.67.164a4.038 4.038 0 1 0-5.711-5.712 4.038 4.038 0 0 0 5.71 5.712z"
+                            />
+                          </g>
+                        </g>
+                      </svg>
+                    </div>
+                    <!-- cd-timeline__img -->
+                  
+                    <div class="cd-timeline__content js-cd-content">
+                      <h2>
+                        <img style="width: 25px;" src="images/sunpump/SunPump-Favicon.png" alt="Sun Pump favicon"> Sun Pump</h2>
+                  
+                      <div uk-slideshow="animation: slide; ratio: 4:3">
+                  
+                        <div class="uk-position-relative uk-visible-toggle uk-light">
+                  
+                          <ul class="uk-slideshow-items">
+                            <li>
+                              <img src="images/sunpump/pump_lily_pond.JPG" alt="pump lily pond" uk-cover>
+                            </li>
+                            <li>
+                              <img src="images/sunpump/plowshares3.png" alt="Sun Pump and me" uk-cover>
+                            </li>
+                            <li>
+                              <img src="images/sunpump/pump-hose-panel.JPG" alt="Sun Pump" uk-cover>
+                            </li> 
+                            <li>
+                              <img src="images/sunpump/at-griffs-2.JPG" alt="working with bradley" uk-cover>
+                            </li>
+                          </ul>
+                  
+                          <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                          <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+                  
+                        </div>
+                  
+                        <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
+                  
+                      </div>
+                      <p>I worked at the non-profit Sun Pump designing the website and charity via e-commerce model as well as helping with business
+                        and engineering tasks. </p>
+                      <a href="https://sunpump.org" class="button-hover cd-timeline__read-more">Visit the site</a>
+                      <span class="cd-timeline__date">May 2018</span>
+                    </div>
+                    <!-- cd-timeline__content -->
+                  </div>
+                  <!-- cd-timeline__block -->
+
+              
+                  <div class="cd-timeline__block js-cd-block">
+                    <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+                        <title>graduation_cap</title>
+                        <g class="nc-icon-wrapper">
+                          <g fill="#37474F">
+                            <path d="M9 20h30v13H9z" />
+                            <ellipse cx="24" cy="33" rx="15" ry="6" />
+                          </g>
+                          <path fill="#78909C" d="M23.1 8.2L.6 18.1c-.8.4-.8 1.5 0 1.9l22.5 9.9c.6.2 1.2.2 1.8 0L47.4 20c.8-.4.8-1.5 0-1.9L24.9 8.2c-.6-.3-1.2-.3-1.8 0z"
+                          />
+                          <g fill="#37474F">
+                            <path d="M43.2 20.4l-20-3.4c-.5-.1-1.1.3-1.2.8-.1.5.3 1.1.8 1.2L42 22.2V37c0 .6.4 1 1 1s1-.4 1-1V21.4c0-.5-.4-.9-.8-1z"
+                            />
+                            <circle cx="43" cy="37" r="2" />
+                            <path d="M46 40c0 1.7-3 6-3 6s-3-4.3-3-6 1.3-3 3-3 3 1.3 3 3z" />
+                          </g>
+                        </g>
+                      </svg>
+                    </div>
+                    <!-- cd-timeline__img -->
+              
+                    <div class="cd-timeline__content js-cd-content">
+                      <h2>High School</h2>
+                      <p>I graduated from <a href="https://www.headroyce.org/about-us" target="_blank">Head-Royce School</a> in Oakland, CA as part of the class of 2018.</p>
+                      <img src="images/me/graduation-speakers.png" alt="Graduation Speakers" />
+                      <!-- <a href="#0" class="cd-timeline__read-more">Read more</a> -->
+                      <span class="cd-timeline__date">June 2018</span>
+                    </div>
+                    <!-- cd-timeline__content -->
+                  </div>
+                  <!-- cd-timeline__block -->
+              
+
+                  <div class="cd-timeline__block js-cd-block">
+                    <div class="cd-timeline__img cd-timeline__img--location js-cd-img">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+                        <title>Plane2 2</title>
+                        <g class="nc-icon-wrapper">
+                          <g fill="none" fill-rule="evenodd">
+                            <path fill="#5EA7FF" d="M57.857 26H11.01c-3.32 0-7.284 2.367-8.856 5.288L1.08 33.279C-.617 36.432.914 39 4.51 39h55.486A4.01 4.01 0 0 0 64 34.993V16h-4l-2.143 10z"
+                            />
+                            <path fill="#FDCD6B" d="M10 26.069c-3.078.408-6.431 2.59-7.847 5.219L1.769 32H10v-5.931z" />
+                            <path fill="#FDCD6B" d="M14 29h5v3h-5z" />
+                            <path fill="#FDCD6B" d="M22 29h5v3h-5z" />
+                            <path fill="#FDCD6B" d="M30 29h5v3h-5z" />
+                            <path fill="#FDCD6B" d="M38 29h5v3h-5z" />
+                            <path fill="#FDCD6B" d="M46 29h5v3h-5z" />
+                            <path fill="#FDCD6B" d="M54 29h5v3h-5z" />
+                            <path fill="#5B68C0" d="M24 9h6v17H18z" />
+                            <path fill="#5B68C0" d="M24 57h6V34H18z" />
+                            <path stroke="#FFDD95" stroke-linecap="square" stroke-width="2" d="M37 10h9m1 4h5M38 44h5m4 5h7" />
+                          </g>
+                        </g>
+                      </svg>
+                    </div>
+                    <!-- cd-timeline__img -->
+              
+                    <div class="cd-timeline__content js-cd-content">
+                      <h2>Moved to New York</h2>
+                      <img class="city-skyline" src="images/other/New York.png" alt="New York" />
+                      <p>I moved to Scarsdale, New York and have loved the pizza but have stayed a Warrior's fan.</p>
+                      <!-- <a href="#0" class="cd-timeline__read-more">Read more</a> -->
+                      <span class="cd-timeline__date">July 2018</span>
+                    </div>
+                    <!-- cd-timeline__content -->
+                  </div>
+                  <!-- cd-timeline__block -->
+              
+
+                  <div class="cd-timeline__block js-cd-block">
+                    <div class="cd-timeline__img cd-timeline__img--location js-cd-img">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+                        <title>bookshorizontal</title>
+                        <g class="nc-icon-wrapper">
+                          <g fill="none" fill-rule="evenodd">
+                            <rect width="52" height="10" x="5" y="52" fill="#DAD71E" rx="2" />
+                            <rect width="48" height="11" x="1" y="41" fill="#4796E7" rx="2" />
+                            <rect width="45" height="7" x="5" y="21" fill="#FF5EAC" rx="2" />
+                            <path fill="#FB3A3A" fill-rule="nonzero" d="M14 21v7h2v-7z" />
+                            <path fill="#FB3A3A" fill-rule="nonzero" d="M38 21v7h2v-7z" />
+                            <path fill="#FB3A3A" fill-rule="nonzero" d="M42 21v7h2v-7z" />
+                            <rect width="54" height="13" x="10" y="28" fill="#56E287" rx="2" />
+                            <path fill="#3FBC6B" fill-rule="nonzero" d="M53 28v13h2V28z" />
+                            <path fill="#FB3A3A" d="M18 28h8v10l-4-3.267L18 38z" />
+                            <path fill="#B8B618" fill-rule="nonzero" d="M12 52v10h2V52z" />
+                            <path fill="#B8B618" fill-rule="nonzero" d="M17 52v10h2V52z" />
+                            <path fill="#FFF" fill-rule="nonzero" d="M6 43v7h2v-7z" />
+                            <path fill="#FFF" fill-rule="nonzero" d="M9 43v7h2v-7z" />
+                            <path fill="#B8B618" fill-rule="nonzero" d="M39 52v10h2V52z" />
+                            <path fill="#9ACCFF" fill-rule="nonzero" d="M43 41v11h2V41z" />
+                            <path fill="#9ACCFF" fill-rule="nonzero" d="M21 41v11h2V41z" />
+                            <path fill="#FFF" fill-rule="nonzero" d="M20 58h18v-2H20z" />
+                            <path fill="#FFF" fill-rule="nonzero" d="M24 48h18v-2H24z" />
+                          </g>
+                        </g>
+                      </svg>
+                    </div>
+                    <!-- cd-timeline__img -->
+              
+                    <div class="cd-timeline__content js-cd-content">
+                      <h2>College at BYU</h2>
+                      <img src="images/other/byu-logo.png" alt="BYU logo" />
+                      <p>
+                        Currently I'm in my freshman year of college at Brigham Young University in Provo, Utah.
+                        As of now I'm an undecided major but am leaning towards <a href="https://it.et.byu.edu/about-it" >Information Technology</a>.</p>
+                      <!-- <a href="#0" class="cd-timeline__read-more">Read more</a> -->
+                      <span class="cd-timeline__date">Sept 2018</span>
+                    </div>
+                    <!-- cd-timeline__content -->
+                  </div>
+                  <!-- cd-timeline__block -->
+
+              
+                  <div class="cd-timeline__block js-cd-block">
+                    <div class="cd-timeline__img js-cd-img">
+                      <svg xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 500 500" >
+                        <title>man boy character employee user avatar human 3acc8dcfc43f59f9</title>
+                        <g class="nc-icon-wrapper">
+                          <linearGradient id="XMLID_2_" gradientUnits="userSpaceOnUse" x1="232.701" y1="276.847" x2="254.411" y2="549.872">
+                            <stop offset="0" stop-color="#FFCA9D" />
+                            <stop offset=".854" stop-color="#FFD9A9" />
+                          </linearGradient>
+                          <path id="XMLID_802_" class="st0" d="M455.3 504.2l-5.1-113.6c-4.8-28.6-24.7-51.1-50-56.7l-91.4-16.1c-8.1-1.5-14.4-11.3-14.5-21.6l-2-47.4h-87.9l-2.1 49.4c-.4 9.7-6.5 17.7-14.6 19.2L97.4 334c-25.3 5.6-45.2 28.1-50 56.7l-5.1 113.6c51.6-.1 361.1-.1 413-.1z"
+                            fill="url(#XMLID_2_)" />
+                          <linearGradient id="XMLID_3_" gradientUnits="userSpaceOnUse" x1="249" y1="354.333" x2="249" y2="474.409">
+                            <stop offset="0" stop-color="#FFF" />
+                            <stop offset="1" stop-color="#E6FFFF" />
+                          </linearGradient>
+                          <path id="XMLID_801_" class="st1" d="M308.8 504.2l20.4-183.5-17.7-3.3c-8.1-1.5-14.2-9.5-14.6-19.2l-48.1 55.5-48.1-55.5c-.4 9.7-6.5 17.7-14.6 19.2l-17.3 2.8 27 184.1h113z"
+                            fill="url(#XMLID_3_)" />
+                          <g id="XMLID_797_">
+                            <linearGradient id="XMLID_4_" gradientUnits="userSpaceOnUse" x1="370.28" y1="315" x2="370.28" y2="496.496">
+                              <stop offset="0" stop-color="#1A1A2B" />
+                              <stop offset="1" stop-color="#2E1B45" />
+                            </linearGradient>
+                            <path id="XMLID_799_" class="st3" d="M460.6 400.5c0-39.6-19.2-60.4-51-68.3l-79-10.5-53.1 182.6H463l-2.4-103.8z" fill="url(#XMLID_4_)"
+                            />
+                            <linearGradient id="XMLID_5_" gradientUnits="userSpaceOnUse" x1="129.615" y1="315" x2="129.615" y2="496.496">
+                              <stop offset="0" stop-color="#1A1A2B" />
+                              <stop offset="1" stop-color="#2E1B45" />
+                            </linearGradient>
+                            <path id="XMLID_798_" class="st4" d="M90.8 332.2c-31.8 7.9-51 28.7-51 68.3L37 504.2h185.2l-51.4-183.6-80 11.6z" fill="url(#XMLID_5_)"
+                            />
+                          </g>
+                          <linearGradient id="XMLID_6_" gradientUnits="userSpaceOnUse" x1="307.766" y1="459.313" x2="307.099" y2="303.969">
+                            <stop offset=".038" stop-color="#001" />
+                            <stop offset="1" stop-color="#2E1B45" />
+                          </linearGradient>
+                          <path id="XMLID_796_" class="st5" d="M297.8 506.8l33.7-58.2c4.2-6.4 8-10.6 1-20.3l-23-34h24.9c7.2 0 8.2-1.6 8.2-11.6l-1.4-55.8s-.4-2-.9-2.7c-.5-.6-2-1.3-2-1.3l-23-5.5-42.4 189.4h24.9z"
+                            fill="url(#XMLID_6_)" />
+                          <linearGradient id="XMLID_7_" gradientUnits="userSpaceOnUse" x1="248.797" y1="373.667" x2="248.797" y2="489.684">
+                            <stop offset=".549" stop-color="#FD0036" />
+                            <stop offset=".995" stop-color="#FF005F" />
+                          </linearGradient>
+                          <path id="XMLID_795_" class="st6" d="M241.1 423l-3.5 81.2h22.6l-3.5-81.6c-.2-3.3.4-8.5 1.2-10.7l8.6-20.7-17.5-36.4v-.8l-.2.4-.2-.4v.9L231 391.2l8.7 21.2c1.3 3 1.5 6.7 1.4 10.6z"
+                            fill="url(#XMLID_7_)" />
+                          <linearGradient id="XMLID_8_" gradientUnits="userSpaceOnUse" x1="190.27" y1="469.359" x2="189.603" y2="314.054">
+                            <stop offset=".038" stop-color="#001" />
+                            <stop offset="1" stop-color="#2E1B45" />
+                          </linearGradient>
+                          <path id="XMLID_794_" class="st7" d="M162.9 393.1h24.9l-23 34c-7 9.7-3.3 13.9.9 20.3l34.5 58.2h25.3l-43.7-187.8-21.9 3.9s-2.6.2-3.3 2.3c-.2.7-.5 2.9-.5 2.9l-1.5 54.7c.2 9.9 1.1 11.5 8.3 11.5z"
+                            fill="url(#XMLID_8_)" />
+                          <path id="XMLID_793_" class="st8" d="M302.7 290.7c-2.6-6.1-4.3-4.7-8 .3l-45.9 62.7-45.9-62.7c-3.7-5.1-5.4-6.4-8-.3l-13.4 25.7 41.4 82.9c2.9 5.8 5.1 5.4 7.7-.3l18.1-44.6 18.1 44.6c2.6 5.8 4.9 6.1 7.7.3l41.4-82.9-13.2-25.7z"
+                            fill="#FFF" />
+                          <g id="XMLID_761_">
+                            <g id="XMLID_780_">
+                              <linearGradient id="XMLID_9_" gradientUnits="userSpaceOnUse" x1="349.625" y1="170.211" x2="326.125" y2="170.211">
+                                <stop offset="0" stop-color="#FEC797" />
+                                <stop offset="1" stop-color="#FFD9A9" />
+                              </linearGradient>
+                              <path id="XMLID_792_" class="st9" d="M329.9 134l6.2.4c9.3 2.6 19.4 11.4 17.1 25.6-2.1 12.9-3.2 14-5.8 30-3.7 22.7-22.3 15.3-22.3 15.3l4.8-71.3z"
+                                fill="url(#XMLID_9_)" />
+                              <linearGradient id="XMLID_10_" gradientUnits="userSpaceOnUse" x1="146.167" y1="172.711" x2="173.667" y2="172.711">
+                                <stop offset="0" stop-color="#FEC797" />
+                                <stop offset="1" stop-color="#FFD9A9" />
+                              </linearGradient>
+                              <path id="XMLID_782_" class="st10" d="M168.7 136.5l-6.2.4c-9.3 2.6-19.4 11.4-17.1 25.6 2.2 12.9 3.2 14 5.8 30 3.7 22.7 22.3 15.3 22.3 15.3l-4.8-71.3z"
+                                fill="url(#XMLID_10_)" />
+                            </g>
+                            <linearGradient id="XMLID_11_" gradientUnits="userSpaceOnUse" x1="249.223" y1="95.822" x2="249.889" y2="306.488">
+                              <stop offset="0" stop-color="#FEC797" />
+                              <stop offset="1" stop-color="#FFD9A9" />
+                            </linearGradient>
+                            <path id="XMLID_763_" class="st11" d="M248.7 57.3l-87.2.4 4.6 146.2c0 10.9.8 19.9 11.9 35.3l31 35.6c10.3 11.2 18.5 12.2 29.7 12.2h20.2c11.2 0 18.4-3.2 26.1-11 0 0 20.3-18.4 33.8-34.5 8.2-9.8 10.3-19.8 10.3-30.7l7.4-153.1-87.8-.4z"
+                              fill="url(#XMLID_11_)" />
+                            <linearGradient id="XMLID_12_" gradientUnits="userSpaceOnUse" x1="247.798" y1="-3.667" x2="247.798" y2="72.345">
+                              <stop offset="0" stop-color="#F4D969" />
+                              <stop offset=".863" stop-color="#F4BC55" />
+                            </linearGradient>
+                            <path id="XMLID_762_" class="st12" d="M163.4 140.8c-2.4-4.1-10.6-36.7-11-57.4-.5-27.7-1.8-83.4 94-83.4h8.7c53 0 93.5 31.9 87.5 86.5-3.1 27.6-5.6 40-5.8 40.9-1.9 11.6-4.2 11.6-4 11.5v-38.8c0-13.8-1.3-41.7-28.6-35.8l-47.5 17.1s16.3-11.6 7.9-11.2c-6.2.3-51.6 16.2-51.6 16.2s20.6-16.2 15.6-16.5c-6.1-.4-44.6 19.2-44.6 19.2l9.3-25.2c-25.7-4.1-29.5 19.5-29.5 40.2l.2 31.6c0 3.6.3 6.5-.6 5.1z"
+                              fill="url(#XMLID_12_)" />
+                          </g>
+                        </g>
+                      </svg>
+                    </div>
+                    <!-- cd-timeline__img -->
+              
+                    <div class="cd-timeline__content js-cd-content">
+                      <h2>LDS Mission</h2>
+                      <p>I'll be going on a 2 year prostelytizing mission for 
+                        <a href="https://mormon.org">The Church of Jesus Christ of Latter Day Saints</a> from the summer of 2019 to the summer of 2021. </p>
+                      <span class="cd-timeline__date">Summer 2019</span>
+                    </div>
+                    <!-- cd-timeline__content -->
+                  </div>
+                  <!-- cd-timeline__block -->
+
+
+                </div>
+              </section>
+              <!-- cd-timeline -->
+
+
+
+
+      <!-- Footer start -->
+
+        <!-- <div class="uk-grid-match uk-child-width-1-4 uk-text-center" uk-grid>
+        
+          <div>
+            <div class="uk-card uk-card-default ">
+              Home
+            </div>
+            <div class="uk-card uk-card-default ">
+              Portfolio
+            </div>
+            <div class="uk-card uk-card-default ">
+              Resume
+            </div>
+            <div class="uk-card uk-card-default ">
+              Contact
+            </div>
+          </div>
+        </div> -->
+
+        <footer id="footer" class="footer uk-flex uk-flex-center uk-flex-middle uk-text-center uk-position-relative uk-position-bottom">
+          <h6>
+          Design & Code by Isaac&nbsp;<a style="margin-bottom: 5px" href="" uk-scroll uk-totop></a>&nbsp;All Rights Reserved.
+          </h6>
+        </footer>
+      <!-- Footer end -->
+      
+
+
+  </div>
+
+  <!-- Javascripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  
+  <script src="js/uikit.js"></script>
+  <script src="js/uikit-icons.js"></script>
+
+  <script src="js/main.js"></script>
+
+            
+
+  
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
