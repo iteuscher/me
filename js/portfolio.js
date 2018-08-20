@@ -1,17 +1,89 @@
 /* --------------
+  Scrolling effects scripts
+-------------- */
+
+// if ($("#modal-bg-1").hasClass("is-visible")) {
+//     console.log("DABBBB");
+//     body.css("overflow", "hidden");
+// }
+
+
+// document.getElementsByTagName("body")[0].style.overflow="hidden !important";
+
+
+let modalbg = document.getElementById("modal-bg-1"); 
+
+//     let initScroll = $(modalbg).scrollTop();
+//     console.log("init scroll " + initScroll);
+    // console.log("scroll top: " + ($(modalbg).scrollTop() - initScroll) );
+    
+function watchScrollForModal() {
+    console.log("RUNNING");
+    console.log(modalbg);
+
+    $(modalbg).scroll(function() {
+
+        var scroll = $(modalbg).scrollTop();
+        
+        if ($(modalbg).scrollTop() > 10) {
+            $(".logo").removeClass("load");
+            $(".child-1").addClass("show");
+            console.log("de-color")
+        }
+
+        if ($(modalbg).scrollTop() < 50) {
+            $(".logo").addClass("load");
+            $(".child-1").removeClass("show");
+            console.log("color again")
+        }
+    });
+}
+
+// function ENDwatchScrollForModal() {
+//     scroll = 100;
+// }
+
+
+
+
+
+// Smooth scroll down
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 2000, function(){
+        window.location.hash = hash;
+      });
+    }
+  });
+});
+
+
+/* --------------
   Modal Script 
 -------------- */
 jQuery(document).ready(function ($) {
+
     //trigger the animation - open modal window
     $('[data-type="modal-trigger"]').on('click', function () {
+        console.log("DIRK 1111111")
         var actionBtn = $(this),
             scaleValue = retrieveScale(actionBtn.next('.cd-modal-bg'));
 
         actionBtn.addClass('to-circle');
         actionBtn.next('.cd-modal-bg').addClass('is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function () {
             animateLayer(actionBtn.next('.cd-modal-bg'), scaleValue, true);
+            
+            console.log("DIRK 22222")
+            watchScrollForModal();
         });
 
+        console.log("DIRK 33333333")
+        // watchScrollForModal();
 
         // $('.cd-modal-bg').css('border-radius', 0);
         // $('.cd-modal-bg').css('left', '0px !important');
@@ -79,7 +151,6 @@ jQuery(document).ready(function ($) {
     }
 
     function closeModal() {
-
         var section = $('.modal.modal-is-visible');
         section.removeClass('modal-is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function () {
             animateLayer(section.find('.cd-modal-bg'), 1, false);
@@ -195,7 +266,7 @@ jQuery(document).ready(function ($) {
             },
             onMixStart: function () {
                 var fail = document.getElementById("fail");
-                console.log("")
+                // console.log("")
                 fail.classList.remove("show");
                     
                 // $('.cd-fail-message').fadeOut(200);

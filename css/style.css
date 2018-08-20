@@ -1,7 +1,24 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);
 
+/*
+AAAAAA: var(--main-color, #1e87f0);
+*/
+
+/* Main css */
     :root {
         --main-color: #1e87f0;
+    }
+
+    ::selection {
+        background-color: var(--main-color) !important;
+    }
+
+    img {
+        pointer-events: none;
+    }
+
+    img::selection {
+        background-color: transparent !important;
     }
 
     .spacer-small {
@@ -48,6 +65,10 @@
     /* .home-svg-illustration {
         transition: all 0.3s !important;
     } */
+
+    .illustration-link:focus {
+        outline: -webkit-focus-ring-color auto 5px;
+    }
 
     .card-icon svg {
         width: 75%;
@@ -104,7 +125,6 @@
     }
 
 
-
     .text-left {
         text-align: left !important;
     }
@@ -136,12 +156,79 @@
             .responsive-image-vertical {
                 width: 30%;
             }
-    }
+        }
+
+/* Main CSS END */
+
 
 /* contact buttons */
-.actions li button {
-    background-color: var(--main-color) !important;
-}
+    .actions li button {
+        background-color: var(--main-color) !important;
+    }
+/* contact buttons end */
+
+
+/* Resume page */
+    #resume {
+        width: 80%;
+        padding-left: 10%;
+    }
+    #resume h3 {
+        margin-bottom: 0;
+    }
+
+    .resume-svg-illustration-container {
+        width: 100%;
+        align-items: center;
+    }
+
+    #view {
+        width: 70%;
+    }
+
+    #print {
+        width: 60%;
+    }
+
+    #icon-spacer {
+        display: block; 
+        height: 30px;
+        width: 100%;
+    }
+
+        @media (min-width: 720px) {
+        .resume-svg-illustration-container {
+            width: 95%;
+            /* 5% spacer inbetween illustrations */
+            align-items: center;
+        }
+        #view {
+            width: 30%;
+        }
+        #print {
+            width: 25%;
+        }
+        #icon-spacer {
+            display: inline-block; 
+            width: 40px;
+        }
+
+        #resume {
+            width: 70%;
+            padding-left: 15%;
+        }
+    }
+
+    .resume-svg-illustration-container p {
+        margin: 0; 
+        display: inline;
+    }
+    .resume-svg-illustration-container a {
+        display: inline-block;
+        text-decoration: none !important;
+        transition: all 0.2s;
+    }
+/* Resume page END
 
 
 /* title container */
@@ -184,9 +271,6 @@
 
 
 /* Buttons & hovers */
-    ::selection {
-        background-color: var(--main-color) !important;
-    }
 
     a {
         /* color: var(--main-color) ; */
@@ -999,7 +1083,7 @@
             left: 0;
             width: 72px;
             height: 67px;
-            background: rgba(0, 0, 255, 1);
+            /* background: rgba(0, 0, 255, 1); */
             background: var(--main-color);
 
             /* top-left | top-right | bottom-right | bottom-left */
@@ -1169,9 +1253,9 @@
             transition: opacity .25s;
             transition: 0.6s ease-in-out;
             
-            background: rgba(0, 0, 255, 1);
+            /* background: rgba(0, 0, 255, 1);
             box-shadow: 0 0 0 0vw blue,
-            0 0 0 0vh blue;
+            0 0 0 0vh blue; */
             background: var(--main-color);
             box-shadow: 0 0 0 0vw var(--main-color),
             0 0 0 0vh var(--main-color);

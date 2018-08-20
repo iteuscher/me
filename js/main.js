@@ -1,3 +1,29 @@
+// set color if it's been changed already on another page/visit
+let body = document.getElementById('body');
+let noTransitionStyle = document.createElement('style');
+if (noTransitionStyle.styleSheet) {
+    noTransitionStyle.styleSheet.cssText = "#shuffle_button, #overlay, .actions li button, .button-hover, .uk-card.uk-label { transition: all 0s !important; }";
+} else {
+    noTransitionStyle.appendChild(document.createTextNode("#shuffle_button, #overlay, .actions li button, .button-hover, .uk-card. uk-label { transition: all 0s !important; }"));
+}
+// console.log ("adding style")
+body.appendChild(noTransitionStyle);
+
+let preSetColor = localStorage.getItem("currentColor");
+if (preSetColor != null )
+{
+    let preStyle = document.createElement('style');
+    if (preStyle.styleSheet) {
+        preStyle.styleSheet.cssText = preSetColor;
+    } else {
+        preStyle.appendChild(document.createTextNode(preSetColor));
+    } 
+    body.appendChild(preStyle);
+}
+
+// console.log("removing style")
+body.removeChild(noTransitionStyle);
+
 
 function colorSwap() {
     // Good colors: #F012BE, #faa05a, #f0506e, #32d296
@@ -14,27 +40,21 @@ function colorSwap() {
     } else {
         style.appendChild(document.createTextNode(css));
     }
-    document.getElementById('body').appendChild(style);
+    body.appendChild(style);
 
-
-    updateSvgIllustrations()
-
-
+    //HTML5 local storage 
+    localStorage.setItem("currentColor", css);
+    // console.log("set local storage to " + localStorage.getItem("currentColor"))
 } 
 
-function updateSvgIllustrations() {
-
-    // var svgobjects = document.querySelector("object");
-    // var cloneElement = svgobjects.cloneNode(true);
-    // svgobjects.parentNode.replaceChild(cloneElement, svgobjects); 
+// document.onload
 
 
+// $('.project_description').each(function (i, obj) {
+//     console.log(obj)
+//     UIkit.scrollspy(obj, "cls: uk-animation-fade; target: > p; delay: 500; repeat: true");
+// });
 
-    $(".cls-1").css("fill", "yellow !important");
-
-
-    
-}
 
 
 // Change title when user goes to a different tab
@@ -125,7 +145,6 @@ function updateSvgIllustrations() {
 
 
 // NAV MENU 
-
     function toggleMenu ()
     {
         var sb = document.getElementById('shuffle_button');
@@ -209,6 +228,7 @@ function updateSvgIllustrations() {
         });
     });
 // Im Isaac -> Nice to meet END
+
 
 // HI TEXT ANIMATION
     // Wrap every letter in a span

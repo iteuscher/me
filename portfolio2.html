@@ -165,27 +165,51 @@
                             <section class="modal">
                                 <div class="cd-modal-action">
                                     <a class="btn button-hover" alt="View Project" data-type="modal-trigger">View Project</a>
-                                    <span class="cd-modal-bg"></span>
+                                    <span id="modal-bg-1" class="cd-modal-bg"></span>
                                 </div>
                             
                                 <div class="cd-modal">
                                     <div class="cd-modal-content">
+
+                                    <div class="dark-container">
+                                        <div class="logo load">
+                                            <p>Title of Project</p>
+                                        </div>
+
+                                        <div class="bg"></div>
+                                        <div class="button">
+                                            <a href="#project_description1">
+                                                <i class="fa fa-chevron-down" aria-hidden="true" alt="arrow"></i>
+                                            </a>
+                                        </div>
+
+                                        <a class="text-scroll" onClick="scroll(0, 100);">
+                                            <span> Scroll </span>
+                                        </a>
+
+                                    </div>
+
+
+
                                         <a href="https://www.sunpump.org" target="_blank">
                                             <h2>Sun Pump</h2>
                                         </a>
 
-                                        <img src="images/sunpump/pump_lily_pong.jpg" alt="Sun Pump">
+                                        <img class="responsive-image-vertical" src="images/sunpump/pump_lily_pond.jpg" alt="Sun Pump">
 
-                                        <a href="https://www.sunpump.org" class="url" target="_blank">
-                                            <p>sunpump.org</p>
-                                        </a>
-
-                                        <p>I worked for Sun Pump, a non-profit spun off of <a href="encaptech.com" target="_blank">Encap Technologies</a> 
-                                            which makes and distributes a radically affordable, environmentally-friendly, powerful solar water pumping system designed to help subsistence
-                                            farmers in developing nations across the globe.
-                                        </p>
-
-                                        <p>I primarily worked to create the website for Sun Pump which included:</p>
+                                        <!-- uk-scrollspy="cls: uk-animation-fade; target: > p; delay: 500; repeat: true" -->
+                                        <div id="project_description1" class="project_description" >
+                                            <a uk-scrollspy="cls: uk-animation-slide-left; repeat: true" href="https://www.sunpump.org" class="url" target="_blank">
+                                                <p>sunpump.org</p>
+                                            </a>
+                                            
+                                            <p>I worked for Sun Pump, a non-profit spun off of
+                                                <a href="encaptech.com" target="_blank">Encap Technologies</a>
+                                                which makes and distributes a radically affordable, environmentally-friendly, powerful solar water pumping system designed
+                                                to help subsistence farmers in developing nations across the globe.
+                                            </p>
+                                            
+                                            <p>I primarily worked to create the website for Sun Pump which included:</p>
                                             
                                             <div class="list">
                                                 <li>* wire-framing </li>
@@ -197,21 +221,23 @@
                                                 <li>* content creation (images, copy, icons, etc)</li>
                                             </div>
                                             
-                                        <p>
-                                            Together with two co-workers, we built and launched the website in 1 month.
-                                        </p>
-
-                                        <p>I also helped with various business and engineering aspects of Sun Pump such as:
-                                            <ul>
-                                                <li>an epic business meeting in San Francisco from 8 AM to 8 PM</li>
-                                                <li>working to make a better filter for muddy water</li>
-                                                <li>coordinating calls with our partners in Kenya, various Chinese suppliers, the Illinois State Tax commission, and others</li>
-                                                <li>measuring the pump's flow rate and metrics</li>
-                                            </ul>   
-                                        </p>
-
-                                        <h1>&nbsp;</h1>
-
+                                            <p>
+                                                Together with two co-workers, we built and launched the website in 1 month.
+                                            </p>
+                                            
+                                            <p>I also helped with various business and engineering aspects of Sun Pump such as:
+                                                <ul>
+                                                    <li>an epic business meeting in San Francisco from 8 AM to 8 PM</li>
+                                                    <li>working to make a better filter for muddy water</li>
+                                                    <li>coordinating calls with our partners in Kenya, various Chinese suppliers, the Illinois State Tax commission, and
+                                                        others</li>
+                                                    <li>measuring the pump's flow rate and metrics</li>
+                                                </ul>
+                                            </p>
+                                        
+                                            <h1>&nbsp;</h1>
+                                        </div>
+                                        
                                         
                                     </div>
                                 </div>
