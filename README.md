@@ -9,10 +9,16 @@ Currently in development. Project started in June 2018.
 ## About
 This is my latest attempt at making a personal website. I tried to make it elegant and responsive and included several features from various other developers (see Acknowledgements)
 
-
-## Acknowledgements (Designs used)
+# Resources used
+- Icons from Magicon and [Nucleo](https://nucleoapp.com)
 
 - Ui Kit (https://getuikit.com/)
+
+- Micro-interaction (shuffle icon goes jelly on click) from
+[Micron.js](https://webkul.github.io/micron/)
+
+
+## Acknowledgements (Designs used)
 
 - Design Inspiration from 
 [Alexander Dreith](https://dreith.com/)
@@ -26,24 +32,15 @@ This is my latest attempt at making a personal website. I tried to make it elega
 - Expanding grid of divs from 
 [Code Rops](https://github.com/codrops/AnimatedGridLayout)
 
-- Vertical Timeline
-[Article on CodyHouse](http://codyhouse.co/gem/vertical-timeline/)
-[Demo](http://codyhouse.co/demo/vertical-timeline/index.html)
-[Terms](http://codyhouse.co/terms/)
+- [Vertical Timeline](http://codyhouse.co/gem/vertical-timeline/) by Cody House
 
 - Some styling and inspiration (mostly the contact form) from [Dimension by HTML5 UP](https://html5up.net/dimension)
 Created by AJ (aj@lkn.io | @ajlkn)
 
-- [Email Validation microinteraction](https://codepen.io/aaroniker/pen/VdRRpM)
+- [Email Validation microinteraction](https://codepen.io/aaroniker/pen/VdRRpM) by Aaronn Iker
 
 - Copy inspiration from
 [Matt Shirley Charts](https://www.mattshirleycharts.com/shop)
 
-Icons from Magicon, [Nucleo](https://nucleoapp.com)
 
-Micro-interaction (shuffle icon goes jelly on click) from
-[Micron.js](https://webkul.github.io/micron/)
-
-
-
-<!-- - Social media SVG icons and tooltip animation by Maciej Leszczyński (https://codepen.io/asistapl/pen/QEAgdA) --># me-v4
+<!-- - Social media SVG icons and tooltip animation by Maciej Leszczyński (https://codepen.io/asistapl/pen/QEAgdA) -->
