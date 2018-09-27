@@ -20,6 +20,10 @@ AAAAAA: var(--main-color, #1e87f0);
     img::selection {
         background-color: transparent !important;
     }
+    
+    .spacer-average {
+        height:13px;
+    }
 
     .spacer-small {
         height: 0.1em;
@@ -169,6 +173,40 @@ AAAAAA: var(--main-color, #1e87f0);
 
 
 /* Resume page */
+    .resume-icon-label-1,
+    .resume-icon-label-2 {
+        color: #666;
+        transition: 0.2s;
+    }
+    #view:focus .resume-icon-label-1 {
+        color: var(--main-color) !important;
+    }
+
+    #view:hover .resume-icon-label-1 {
+        color: var(--main-color) !important;
+    }
+    #print:focus .resume-icon-label-2 {
+        color: var(--main-color) !important;
+    }
+
+    #print:hover .resume-icon-label-2 {
+        color: var(--main-color) !important;
+    }
+
+    .resume-subheader {
+        font-size: 18px;
+        padding:0;
+        margin: 0;
+    }
+    .resume-sublink {
+        padding: 0;
+        margin: 0;
+        margin-left: 15px;
+    }
+    .resume-subtext {
+        margin-left: 15px;
+    }
+
     #resume {
         width: 80%;
         padding-left: 10%;

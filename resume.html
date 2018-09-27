@@ -119,28 +119,39 @@
                     <h1> Resume </h1>
                 </div>
 
-
                 <p></p>
 
                 <div class="resume-svg-illustration-container">
 
-                    <a id="view" class="illustration-link" aria-label="View Resume">
+                    <a target="_blank" href="resume-isaac-teuscher.pdf" id="view" class="illustration-link" aria-label="View Resume">
                         <svg class="resume-svg-illustration" viewBox="0 0 1113.61 844.14" title="View My Resume" alt="View My Resume">
                             <use href="#view-svg" />
                         </svg>
-                        <p>View My Resume</p>
+                        <p class="resume-icon-label-1">View My Resume</p>
                     </a>
                     
                     <div id="icon-spacer"></div>
 
-                    <a id="print" class="illustration-link" aria-label="Print Resume">
+
+                    <!-- print JS -->
+                    <script src="https://printjs-4de6.kxcdn.com/print.min.js"></script>
+                    <link href="https://printjs-4de6.kxcdn.com/print.min.css" type="text/css" rel="stylesheet">
+                        <!-- <button type="button"  id="print" class="illustration-link" aria-label="Print Resume">
+                                Print PDF
+                             </button> -->
+
+
+                     <!-- onclick="printJS('resume-isaac-teuscher.pdf')" href="" -->
+                    <a target="_blank" href="resume-isaac-teuscher.pdf" id="print" class="illustration-link" aria-label="Print Resume">
                         <svg  class="resume-svg-illustration" viewBox="0 0 941.04 793.62" title="Print My Resume" alt="Print My Resume">
                             <use href="#print-svg" />
                         </svg>
-                        <p>Print My Resume</p>
+                        <p class="resume-icon-label-2">Print My Resume</p>
                     </a>
                     
                 </div>
+
+                <div class="spacer"></div>
 
                 <!-- SOCIAL MEDIA BUTTONS -->
                 <ul style="padding-top: 35px;" class="link-list">
@@ -180,28 +191,78 @@
                     <p></p>
 
                 <h3>Personal Info</h3>
-                Isaac Teuscher Alameda, CA, 94501 isaacteuscher@gmail.com 
+                <div class="spacer-small"></div>
+                Isaac Teuscher 
+                <br>
+                <p style="padding: 0; margin: 0;"><a href="mailto:isaacteuscher@gmail.com">isaacteuscher@gmail.com</a></p>
+                Living in Provo, Utah
                 
                 <h3>Education</h3>
-                Brigham Young University Fall 2018 - present
-                Undeclared Major Head-Royce High School 3.87 GPA ASB Treasurer 
+                <div class="spacer-small"></div>
+                Brigham Young University (BYU) 
+                <div class="resume-subtext">
+                    Information Technology Major, Started Fall 2018
+                </div> 
+                <div class="spacer-average"></div>
+                Head-Royce High School
+                <div class="resume-subtext">
+                     3.87 GPA, ASB Treasurer
+                </div>
                 
                 <h3>Work Experience</h3>
-                Student Web Developer Head-Royce School (Oakland,
-                CA) Sept 2016 - Jan 2018 Built the Oppurtunities Hub website and database for the HRS Center for Community Engagement. Since
-                the launch I've helped update the design and troubleshoot issues (tinyurl.com/theoh) General Contractor Assistant Alameda,
-                CA July - Aug 2017 Mixed concrete, installed lawns, poured driveways, painting, installed AC, electrical work, etc. 
-                
+                    <p style="margin-top: -13px;">
+                        <div class="resume-subheader">Web Developer for Entrada Ventures</div>
+                        <p class="resume-sublink" >
+                            <a target="_blank" href="https://entradavc.com">entradavc.com</a>
+                        </p>
+                        <div class="resume-subtext">
+                            Designed and created the website for Entrada Ventures, a Venture Capital Investment Firm. Included design, coding, CMS integration,
+                            writing copy, and more.
+                        </div>
+                    </p>
+
+                    <p>
+                        <div class="resume-subheader">Intern at Sun Pump</div>
+                        <p class="resume-sublink">
+                            <a target="_blank" href="https://sunpump.org">sunpump.org</a>
+                        </p>
+                        <div class="resume-subtext">
+                            Designed and built website for the non-profit Sun Pump featuring Stripe e-commerce and secure online donation functionality.
+                            Also assisted with business and engineering tasks.
+                        </div>
+                    </p>
+
+                    <p>
+                        <div class="resume-subheader">Student Web Developer at Head-Royce School</div>
+                        <p class="resume-sublink">
+                            <a target="_blank" href="https://oh.headroyce.org">oh.headroyce.org</a>
+                        </p>
+                        <div class="resume-subtext">
+                            Designed, developed, and maintained the Opportunities Hub website and accompanying database for the HRS Center for Community
+                            Engagement.
+                        </div>
+                    </p>
+
+
                 <h3>Activities</h3>
-                Boy Scouts - Eagle Scout (Troop 16) Student Council - Key club member - ASB Treasuer Computer Science Club - Co-President
-                
+                    <div class="spacer-small"></div>
+                    Boy Scout
+                    <div class="resume-subtext">
+                        Eagle Scout (Troop 16)
+                    </div>
+                    <div class="spacer-average"></div>
+                    Student Council
+                    <div class="resume-subtext">
+                        ASB Treasurer, Key club, Computer Science Club Co-President, STEM Committee
+                    </div>
+
                 
                 <h3>Skills</h3>
-                     Some experince with web design (HTML, CSS, JavaScript, jQuery), Express and Node.JS, Java programming, and iOS app
-                design.
+                    <div class="spacer-small"></div>
+                        Experience with web design (HTML, CSS, JavaScript, jQuery), Express & Node.JS, C++, Java programming, etc
+                    </div>
 
-
-                </div>
+                <h2></h2>
 
             </div>
         </div>
