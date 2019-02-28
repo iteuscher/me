@@ -3,114 +3,92 @@
 
 <head>
 
-    <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta charset="utf-8">
+
     <title>Portfolio - Isaac Teuscher</title>
-    <meta name="description" content="">
+    <meta property="title" content="Portfolio">
+    <meta name="description" content="See some of what I've worked on!">
+
+    <meta name="site_name" content="Isaac Teuscher">
+    <meta name="see_also" content="isaacteuscher.com">
     <meta name="author" content="Isaac Teuscher">
-    <meta name="keywords" content="Isaac Teuscher, Isaac H Teuscher, iteuscher, teuscher, isaac henry teuscher, bio, website">
-
-    <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="keywords" content="Isaac Teuscher, Isaac H Teuscher, iteuscher, teuscher, isaac henry teuscher, isaac.teuscher, isaacteuscher, website">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=yes">
-
-    <!-- OS Compatibility
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- [if lt IE 9]
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    [endif] -->
+    <meta http-equiv="Content-Language" content="en">
 
-    <!-- Fonts
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
-
-    <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/uikit.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/portfolio.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/portfolio.min.css">
     <!-- <link rel="stylesheet" href="//daneden.github.io/animate.css/animate.min.css"> -->
+
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+    <link rel="shortcut icon" type="image/x" href="images/favicon.ico">
 
     <!-- Micron.js -->
     <link href="https://unpkg.com/webkul-micron@1.1.6/dist/css/micron.min.css" type="text/css" rel="stylesheet">
     <script src="https://unpkg.com/webkul-micron@1.1.6/dist/script/micron.min.js" type="text/javascript"></script>
 
-    <!-- javascripts
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script> -->
-
-
-    <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="shortcut icon" type="image/x" href="images/favicon.ico">
-
 </head>
 
 <body id="body">
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div title="Shuffle Color" data-micron="jelly" data-micron-duration=".65" data-micron-timing="ease-in" id="shuffle-icon"
+        class="shuffle-icon" onclick="colorSwap()">
+        <svg id="shuffle-svg" data-micron="jelly" data-micron-duration=".65" data-micron-timing="ease-in" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"
+            aria-labelledby="title" role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <title>Shuffle</title>
+            <path data-micron="jelly" data-micron-duration=".65" data-micron-bind="true" data-micron-id="shuffle-svg" data-micron-timing="ease-in"
+                d="M53 24l8-8-8-8" stroke-width="4" stroke-miterlimit="10" stroke-linecap="round" stroke="#fff" fill="none" data-name="layer2"
+                stroke-linejoin="round"></path>
+            <path data-micron="jelly" data-micron-duration=".65" data-micron-bind="true" data-micron-id="shuffle-svg" data-micron-timing="ease-in"
+                d="M53 54l8-8-8-8" stroke-width="4" stroke-miterlimit="10" stroke-linecap="round" stroke="#fff" fill="none" data-name="layer1"
+                stroke-linejoin="round"></path>
+            <path data-micron="jelly" data-micron-duration=".65" data-micron-bind="true" data-micron-id="shuffle-svg" data-micron-timing="ease-in"
+                stroke-width="4" stroke-miterlimit="10" stroke-linecap="round" stroke="#fff" fill="none" d="M61 16H47c-4 0-7 1-9 4L22 42c-3 4-5 4-9 4H2"
+                data-name="layer2" stroke-linejoin="round"></path>
+            <path data-micron="jelly" data-micron-duration=".65" data-micron-bind="true" data-micron-id="shuffle-svg" data-micron-timing="ease-in"
+                stroke-width="4" stroke-miterlimit="10" stroke-linecap="round" stroke="#fff" fill="none" d="M27.1 27L22 20c-3-4-5-4-9-4H2m59 30H47c-4 0-7-1-9-4l-5-6"
+                data-name="layer1" stroke-linejoin="round"></path>
+        </svg>
+    </div>
 
-  <div title="Shuffle Color" data-micron="jelly" data-micron-duration=".65" data-micron-timing="ease-in" id="shuffle-icon"
-    class="shuffle-icon" onclick="colorSwap()">
-    <svg id="shuffle-svg" data-micron="jelly" data-micron-duration=".65" data-micron-timing="ease-in" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"
-      aria-labelledby="title" role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
-      <title>Shuffle</title>
-      <path data-micron="jelly" data-micron-duration=".65" data-micron-bind="true" data-micron-id="shuffle-svg" data-micron-timing="ease-in"
-        d="M53 24l8-8-8-8" stroke-width="4" stroke-miterlimit="10" stroke-linecap="round" stroke="#fff" fill="none" data-name="layer2"
-        stroke-linejoin="round"></path>
-      <path data-micron="jelly" data-micron-duration=".65" data-micron-bind="true" data-micron-id="shuffle-svg" data-micron-timing="ease-in"
-        d="M53 54l8-8-8-8" stroke-width="4" stroke-miterlimit="10" stroke-linecap="round" stroke="#fff" fill="none" data-name="layer1"
-        stroke-linejoin="round"></path>
-      <path data-micron="jelly" data-micron-duration=".65" data-micron-bind="true" data-micron-id="shuffle-svg" data-micron-timing="ease-in"
-        stroke-width="4" stroke-miterlimit="10" stroke-linecap="round" stroke="#fff" fill="none" d="M61 16H47c-4 0-7 1-9 4L22 42c-3 4-5 4-9 4H2"
-        data-name="layer2" stroke-linejoin="round"></path>
-      <path data-micron="jelly" data-micron-duration=".65" data-micron-bind="true" data-micron-id="shuffle-svg" data-micron-timing="ease-in"
-        stroke-width="4" stroke-miterlimit="10" stroke-linecap="round" stroke="#fff" fill="none" d="M27.1 27L22 20c-3-4-5-4-9-4H2m59 30H47c-4 0-7-1-9-4l-5-6"
-        data-name="layer1" stroke-linejoin="round"></path>
-    </svg>
-  </div>
-
-  <div title="Shuffle Color" data-micron="jelly" data-micron-duration=".65" data-micron-bind="true" data-micron-id="shuffle-svg" data-micron-timing="ease-in" 
-  class="top-corner shuffle-button" id="shuffle_button" onclick="colorSwap()">
-  </div>
+    <div title="Shuffle Color" data-micron="jelly" data-micron-duration=".65" data-micron-bind="true" data-micron-id="shuffle-svg"
+        data-micron-timing="ease-in" class="top-corner shuffle-button" id="shuffle_button" onclick="colorSwap()">
+    </div>
 
 
-  <!-- Nav menu start -->
+    <!-- Nav menu start -->
     <div title="Menu" class="button_container" id="toggle">
-      <span class="top"></span>
-      <span class="middle"></span>
-      <span class="bottom"></span>
+        <span class="top"></span>
+        <span class="middle"></span>
+        <span class="bottom"></span>
     </div>
-    
+
     <div class="top-corner overlay" id="overlay">
-      <nav class="overlay-menu">
-        <ul>
-          <li>
-            <a href="index.html">Home</a>
-          </li>
-          <li>
-            <a href="about.html">About Me</a>
-          </li>
-          <li>
-            <a href="portfolio.html">Portfolio</a>
-          </li>
-          <li>
-            <a href="resume.html">Resume</a>
-          </li>
-          <li>
-            <a href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </nav>
+        <nav class="overlay-menu">
+            <ul>
+                <li>
+                    <a href="index">Home</a>
+                </li>
+                <li>
+                    <a href="about">About Me</a>
+                </li>
+                <li>
+                    <a href="portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a href="resume">Resume</a>
+                </li>
+                <li>
+                    <a href="contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
     </div>
-  <!-- Nav menu end -->
+    <!-- Nav menu end -->
 
 
     <div class="content uk-container">
@@ -123,352 +101,232 @@
                 <!-- <br> Most are CS / Web Development related.</p> -->
             </div>
         </div>
-    
+
     </div>
 
-        
-            <main class="cd-main-content">
-                <div class="cd-tab-filter-wrapper">
-                    <div class="cd-tab-filter">
-                        <ul class="cd-filters">
-                            <li class="placeholder">
-                                <a data-type="all">All</a>
-                                <!-- selected option on mobile -->
-                            </li>
-                            <li class="filter">
-                                <a class="selected" data-type="all">All</a>
-                            </li>
-                            <li class="filter" data-filter=".webdev">
-                                <a data-type="webdev">Web Development</a>
-                            </li>
-                            <li class="filter" data-filter=".gencs">
-                                <a data-type="gencs">General CS</a>
-                            </li>
-                            <li class="filter" data-filter=".other">
-                                <a data-type="other">Other</a>
-                            </li>
-                        </ul>
-                        <!-- cd-filters -->
-                    </div>
-                    <!-- cd-tab-filter -->
-                </div>
-                <!-- cd-tab-filter-wrapper -->
 
-        
-                <section class="cd-gallery">
+    <main class="cd-main-content">
+        <div class="cd-tab-filter-wrapper">
+            <div class="cd-tab-filter">
+                <ul class="cd-filters">
+                    <li class="placeholder">
+                        <a data-type="all">All</a>
+                        <!-- selected option on mobile -->
+                    </li>
+                    <li class="filter">
+                        <a class="selected" data-type="all">All</a>
+                    </li>
+                    <li class="filter" data-filter=".webdev">
+                        <a data-type="webdev">Web Development</a>
+                    </li>
+                    <li class="filter" data-filter=".gencs">
+                        <a data-type="gencs">General CS</a>
+                    </li>
+                    <li class="filter" data-filter=".other">
+                        <a data-type="other">Other</a>
+                    </li>
+                </ul>
+                <!-- cd-filters -->
+            </div>
+            <!-- cd-tab-filter -->
+        </div>
+        <!-- cd-tab-filter-wrapper -->
 
-                    <ul>
-                        <li class="project mix webdev webdesign gencs express&node.js groupproject"> <!-- color-1 check3 radio2 option4  -->
-                            <img class="project-image" src="images/portfolio/sunpump-thumb.png" alt="Sun Pump Logo">
-                            <!-- <h2>Sun Pump</h2> -->
-                            <p></p>
-                            <section class="modal">
-                                <div class="cd-modal-action">
 
-                                    <!-- uncomment line below, remove direct link and fill in div modal content with info -->
-                                    <!-- <a class="btn button-hover" alt="View Project" data-type="modal-trigger">View Project</a> -->
-                                    <a target="_blank" href="https://sunpump.org" class="btn button-hover" alt="View Project">Visit Website</a>
+        <section class="cd-gallery">
 
-                                    <span class="cd-modal-bg"></span>
-                                </div>
-                            
-                                <div class="cd-modal">
-                                    <div class="cd-modal-content">
-                                        <a href="https://www.sunpump.org" target="_blank">
-                                            <h2>Sun Pump</h2>
-                                        </a>
+            <ul>
+                <li class="project mix webdev webdesign gencs express&node.js groupproject">
+                    <!-- color-1 check3 radio2 option4  -->
+                    <img class="project-image" src="images/portfolio/sunpump-thumb.png" alt="Sun Pump Logo">
+                    <!-- <h2>Sun Pump</h2> -->
+                    <p></p>
+                    <section class="modal">
+                        <div class="cd-modal-action">
 
-                                        <img src="images/sunpump/pump_lily_pond.jpg" alt="Sun Pump">
+                            <!-- uncomment line below, remove direct link and fill in div modal content with info -->
+                            <!-- <a class="btn button-hover" alt="View Project" data-type="modal-trigger">View Project</a> -->
+                            <a target="_blank" href="https://www.sunpump.org" class="btn button-hover" alt="View Project">Visit Website</a>
 
-                                        <a href="https://www.sunpump.org" class="url" target="_blank">
-                                            <p>sunpump.org</p>
-                                        </a>
+                            <span class="cd-modal-bg"></span>
+                        </div>
 
-                                        <p>I worked for Sun Pump, a non-profit spun off of <a href="encaptech.com" target="_blank">Encap Technologies</a> 
-                                            which makes and distributes a radically affordable, environmentally-friendly, powerful solar water pumping system designed to help subsistence
-                                            farmers in developing nations across the globe.
-                                        </p>
+                        <div class="cd-modal">
+                            <div class="cd-modal-content">
+                                <a href="https://www.sunpump.org" target="_blank">
+                                    <h2>Sun Pump</h2>
+                                </a>
 
-                                        <p>I primarily worked to create the website for Sun Pump which included:
-                                            
-                                            <!-- <div class="list">
-                                                <li>* wire-framing </li>
-                                                <li>* responsive & modern design </li>
-                                                <li>* e-commerce Stripe integration </li>
-                                                <li>* online donation functionality </li>
-                                                <li>* branding and logo </li>
-                                                <li>* SEO and hosting </li>
-                                                <li>* content creation (images, copy, icons, etc)</li>
-                                            </div> -->
-                                            
-                                            Together with two co-workers, we built and launched the website in 1 month.
-                                        </p>
+                                <img src="images/sunpump/pump_lily_pond.jpg" alt="Sun Pump">
 
-                                        <p>I also helped with various business and engineering aspects of Sun Pump such as:
-                                            <ul>
-                                                <li>an epic business meeting in San Francisco from 8 AM to 8 PM</li>
-                                                <li>working to make a better filter for muddy water</li>
-                                                <li>coordinating calls with our partners in Kenya, various Chinese suppliers, the Illinois State Tax commission, and others</li>
-                                                <li>measuring the pump's flow rate and metrics</li>
-                                            </ul>   
-                                        </p>
+                                <a href="https://www.sunpump.org" class="url" target="_blank">
+                                    <p>www.sunpump.org</p>
+                                </a>
 
-                                        
-                                    </div>
-                                </div>
-                                <div alt="Close Project" class="cd-modal-close">Close</div>
-                            </section>
-                        </li>
+                                <p>I worked for Sun Pump, a non-profit spun off of
+                                    <a href="encaptech.com" target="_blank">Encap Technologies</a>
+                                    which makes and distributes a radically affordable, environmentally-friendly, powerful solar water pumping system designed
+                                    to help subsistence farmers in developing nations across the globe.
+                                </p>
 
-                        <li class="project mix webdev webdesign express&node.js groupproject cms">
-                            <img class="project-image" src="images/portfolio/entrada-2.svg" alt="Entrada Ventures Logo">
-                            <!-- <h2>Entrada Ventures</h2> -->
-                            <h2></h2>
-                            <section class="modal">
-                                <div class="cd-modal-action">
+                                <p>I primarily worked to create the website for Sun Pump which included: Together with two co-workers,
+                                    we built and launched the website in 1 month.
+                                </p>
+
+                                <p>I also helped with various business and engineering aspects of Sun Pump such as:
+                                    <ul>
+                                        <li>an epic business meeting in San Francisco from 8 AM to 8 PM</li>
+                                        <li>working to make a better filter for muddy water</li>
+                                        <li>coordinating calls with our partners in Kenya, various Chinese suppliers, the Illinois
+                                            State Tax commission, and others</li>
+                                        <li>measuring the pump's flow rate and metrics</li>
+                                    </ul>
+                                </p>
+
+
+                            </div>
+                        </div>
+                        <div alt="Close Project" class="cd-modal-close">Close</div>
+                    </section>
+                </li>
+
+                <li class="project mix webdev webdesign express&node.js groupproject cms">
+                    <img class="project-image" src="images/portfolio/entrada-2.svg" alt="Entrada Ventures Logo">
+                    <!-- <h2>Entrada Ventures</h2> -->
+                    <h2></h2>
+                    <section class="modal">
+                        <div class="cd-modal-action">
 
                             <!-- uncomment line below, remove direct link and fill in div modal content with info -->
                             <!-- <a class="btn button-hover" alt="View Project" data-type="modal-trigger">View Project</a> -->
                             <a target="_blank" href="https://entradavc.com" class="btn button-hover" alt="View Project">Visit Website</a>
-                                    
-                                    <span class="cd-modal-bg"></span>
-                                </div>
-                            
-                                <div class="cd-modal">
-                                    <div class="cd-modal-content">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad modi repellendus, optio eveniet eligendi molestiae? Fugiat,
-                                            temporibus! A rerum pariatur neque laborum earum, illum voluptatibus eum voluptatem fugiat, porro animi tempora?
-                                            Sit harum nulla, nesciunt molestias, iusto aliquam aperiam est qui possimus reprehenderit ipsam ea aut assumenda
-                                            inventore iste! Animi quaerat facere repudiandae earum quisquam accusamus tempora, delectus nesciunt, provident
-                                            quae aliquam, voluptatum beatae quis similique in maiores repellat eligendi voluptas veniam optio illum vero!
-                                            Eius, dignissimos esse eligendi veniam.
-                                        </p>
-                            
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad modi repellendus, optio eveniet eligendi molestiae? Fugiat,
-                                            temporibus! A rerum pariatur neque laborum earum, illum voluptatibus eum voluptatem fugiat, porro animi tempora?
-                                            Sit harum nulla, nesciunt molestias, iusto aliquam aperiam est qui possimus reprehenderit ipsam ea aut assumenda
-                                            inventore iste! Animi quaerat facere repudiandae earum quisquam accusamus tempora, delectus nesciunt, provident
-                                            quae aliquam, voluptatum beatae quis similique in maiores repellat eligendi voluptas veniam optio illum vero!
-                                            Eius, dignissimos esse eligendi veniam.
-                                        </p>
-                            
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad modi repellendus, optio eveniet eligendi molestiae? Fugiat,
-                                            temporibus! A rerum pariatur neque laborum earum, illum voluptatibus eum voluptatem fugiat, porro animi tempora?
-                                            Sit harum nulla, nesciunt molestias, iusto aliquam aperiam est qui possimus reprehenderit ipsam ea aut assumenda
-                                            inventore iste! Animi quaerat facere repudiandae earum quisquam accusamus tempora, delectus nesciunt, provident
-                                            quae aliquam, voluptatum beatae quis similique in maiores repellat eligendi voluptas veniam optio illum vero!
-                                            Eius, dignissimos esse eligendi veniam.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div alt="Close Project" class="cd-modal-close">Close</div>
-                            </section>
-                        </li>
 
-                        <li class="project mix webdev webdesign cms">
-                            <img class="card-img-top" src="images/portfolio/theoh.png" alt="The OH! Logo">
-                            <!-- <h2>The Head-Royce School Opportunities Hub</h2> -->
-                            <h2></h2>
-                            <section class="modal">
-                                <div class="cd-modal-action">
+                            <span class="cd-modal-bg"></span>
+                        </div>
 
-                                    <!-- uncomment line below, remove direct link and fill in div modal content with info -->
-                                    <!-- <a class="btn button-hover" alt="View Project" data-type="modal-trigger">View Project</a> -->
-                                    <a target="_blank" href="https://oh.headroyce.org" class="btn button-hover" alt="View Project">Visit Website</a>
-                                    
-                                    <span class="cd-modal-bg"></span>
-                                </div>
-                            
-                                <div class="cd-modal">
-                                    <div class="cd-modal-content">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad modi repellendus, optio eveniet eligendi molestiae? Fugiat,
-                                            temporibus! A rerum pariatur neque laborum earum, illum voluptatibus eum voluptatem fugiat, porro animi tempora?
-                                            Sit harum nulla, nesciunt molestias, iusto aliquam aperiam est qui possimus reprehenderit ipsam ea aut assumenda
-                                            inventore iste! Animi quaerat facere repudiandae earum quisquam accusamus tempora, delectus nesciunt, provident
-                                            quae aliquam, voluptatum beatae quis similique in maiores repellat eligendi voluptas veniam optio illum vero!
-                                            Eius, dignissimos esse eligendi veniam.
-                                        </p>
-                            
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad modi repellendus, optio eveniet eligendi molestiae? Fugiat,
-                                            temporibus! A rerum pariatur neque laborum earum, illum voluptatibus eum voluptatem fugiat, porro animi tempora?
-                                            Sit harum nulla, nesciunt molestias, iusto aliquam aperiam est qui possimus reprehenderit ipsam ea aut assumenda
-                                            inventore iste! Animi quaerat facere repudiandae earum quisquam accusamus tempora, delectus nesciunt, provident
-                                            quae aliquam, voluptatum beatae quis similique in maiores repellat eligendi voluptas veniam optio illum vero!
-                                            Eius, dignissimos esse eligendi veniam.
-                                        </p>
-                            
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad modi repellendus, optio eveniet eligendi molestiae? Fugiat,
-                                            temporibus! A rerum pariatur neque laborum earum, illum voluptatibus eum voluptatem fugiat, porro animi tempora?
-                                            Sit harum nulla, nesciunt molestias, iusto aliquam aperiam est qui possimus reprehenderit ipsam ea aut assumenda
-                                            inventore iste! Animi quaerat facere repudiandae earum quisquam accusamus tempora, delectus nesciunt, provident
-                                            quae aliquam, voluptatum beatae quis similique in maiores repellat eligendi voluptas veniam optio illum vero!
-                                            Eius, dignissimos esse eligendi veniam.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div alt="Close Project" class="cd-modal-close">Close</div>
-                            </section>
-                        </li>
+                        <div class="cd-modal">
+                            <div class="cd-modal-content"></div>
+                        </div>
+                        <div alt="Close Project" class="cd-modal-close">Close</div>
+                    </section>
+                </li>
 
-                        <li class="gap"></li>
-                        <li class="gap"></li>
-                        <li class="gap"></li>
-                    </ul>
-                    <div id="fail" class="cd-fail-message" >No results found</div>
-                </section>
-                <!-- cd-gallery -->
-        
-                <div class="cd-filter">
-                    <form>
-                        <div class="cd-filter-block">
-                            <h4>Search</h4>
-        
-                            <div class="cd-filter-content">
-                                <input type="search" placeholder="Try Node.js...">
+                <li class="project mix webdev webdesign cms">
+                    <img class="card-img-top" src="images/portfolio/theoh.png" alt="The OH! Logo">
+                    <!-- <h2>The Head-Royce School Opportunities Hub</h2> -->
+                    <h2></h2>
+                    <section class="modal">
+                        <div class="cd-modal-action">
+
+                            <!-- uncomment line below, remove direct link and fill in div modal content with info -->
+                            <!-- <a class="btn button-hover" alt="View Project" data-type="modal-trigger">View Project</a> -->
+                            <a target="_blank" href="https://oh.headroyce.org" class="btn button-hover" alt="View Project">Visit Website</a>
+
+                            <span class="cd-modal-bg"></span>
+                        </div>
+
+                        <div class="cd-modal">
+                            <div class="cd-modal-content">
                             </div>
                         </div>
-        
-                        <div class="cd-filter-block">
-                            <h4>Catagories</h4>
-        
-                            <ul class="cd-filter-content cd-filters list">
-                                <li>
-                                    <input class="filter" data-filter=".webdesign" type="checkbox" id="checkbox1">
-                                    <label class="checkbox-label" for="checkbox1">Web Design</label>
-                                </li>
-        
-                                <li>
-                                    <input class="filter" data-filter=".express&node.js" type="checkbox" id="checkbox2">
-                                    <label class="checkbox-label" for="checkbox2">Express & Node.js</label>
-                                </li>
+                        <div alt="Close Project" class="cd-modal-close">Close</div>
+                    </section>
+                </li>
 
-                                <!-- <li>
-                                    <input class="filter" data-filter=".java" type="checkbox" id="checkbox3">
-                                    <label class="checkbox-label" for="checkbox3">Java</label>
-                                </li> -->
+                <li class="gap"></li>
+                <li class="gap"></li>
+                <li class="gap"></li>
+            </ul>
+            <div id="fail" class="cd-fail-message">No results found</div>
+        </section>
+        <!-- cd-gallery -->
 
-                                <li>
-                                    <input class="filter" data-filter=".cms" type="checkbox" id="checkbox4">
-                                    <label class="checkbox-label" for="checkbox4">CMS</label>
-                                </li>
+        <div class="cd-filter">
+            <form>
+                <div class="cd-filter-block">
+                    <h4>Search</h4>
 
-                                <!-- <li>
-                                    <input class="filter" data-filter=".unitygame" type="checkbox" id="checkbox5">
-                                    <label class="checkbox-label" for="checkbox5">Unity Game</label>
-                                </li> -->
-
-        
-                                <!-- <li>
-                                    <input class="filter" data-filter=".iosapp" type="checkbox" id="checkbox6">
-                                    <label class="checkbox-label" for="checkbox6">iOS App</label>
-                                </li> -->
-
-                                <li>
-                                    <input class="filter" data-filter=".groupproject" type="checkbox" id="checkbox7">
-                                    <label class="checkbox-label" for="checkbox7">Group Project</label>
-                                </li>
-
-                                <!-- <li>
-                                    <input class="filter" data-filter=".workinprogress" type="checkbox" id="checkbox8">
-                                    <label class="checkbox-label" for="checkbox8">Work In Progress</label>
-                                </li> -->
-
-                                <!-- <li>
-                                    <input class="filter" data-filter=".notcompsci" type="checkbox" id="checkbox9">
-                                    <label class="checkbox-label" for="checkbox9">Not Comp Sci</label>
-                                </li> -->
-
-                            </ul>
-                        </div>
-        
-                        <!-- <div class="cd-filter-block">
-                                <h4>Select</h4>
-                
-                                <div class="cd-filter-content">
-                                    <div class="cd-select cd-filters">
-                                        <select class="filter" name="selectThis" id="selectThis">
-                                            <option value="">Choose an option</option>
-                                            <option value=".option1">Option 1</option>
-                                            <option value=".option2">Option 2</option>
-                                            <option value=".option3">Option 3</option>
-                                            <option value=".option4">Option 4</option>
-                                        </select>
-                                    </div>
-         
-                                </div>
-                            </div> -->
-                        <!-- cd-filter-block -->
-        
-                        <!-- <div class="cd-filter-block">
-                                <h4>Radio buttons</h4>
-                
-                                <ul class="cd-filter-content cd-filters list">
-                                    <li>
-                                        <input class="filter" data-filter="" type="radio" name="radioButton" id="radio1" checked>
-                                        <label class="radio-label" for="radio1">All</label>
-                                    </li>
-                
-                                    <li>
-                                        <input class="filter" data-filter=".radio2" type="radio" name="radioButton" id="radio2">
-                                        <label class="radio-label" for="radio2">Choice 2</label>
-                                    </li>
-                
-                                    <li>
-                                        <input class="filter" data-filter=".radio3" type="radio" name="radioButton" id="radio3">
-                                        <label class="radio-label" for="radio3">Choice 3</label>
-                                    </li>
-                                </ul>
-                            </div> -->
-                    </form>
-        
-                    <a class="cd-close">Close</a>
+                    <div class="cd-filter-content">
+                        <input type="search" placeholder="Try Node.js...">
+                    </div>
                 </div>
-                <!-- cd-filter -->
-        
-                <a class="cd-filter-trigger">
-                    <!-- <p>Filters</p> -->
-                </a>
-            </main>  
-            <!-- cd-main-content -->
-        
+
+                <div class="cd-filter-block">
+                    <h4>Catagories</h4>
+
+                    <ul class="cd-filter-content cd-filters list">
+                        <li>
+                            <input class="filter" data-filter=".webdesign" type="checkbox" id="checkbox1">
+                            <label class="checkbox-label" for="checkbox1">Web Design</label>
+                        </li>
+
+                        <li>
+                            <input class="filter" data-filter=".express&node.js" type="checkbox" id="checkbox2">
+                            <label class="checkbox-label" for="checkbox2">Express & Node.js</label>
+                        </li>
 
 
-            <!-- Footer start -->
-            <footer class="footer uk-flex uk-flex-center uk-flex-middle uk-text-center uk-position-relative uk-position-bottom">
-                <h6 style="margin-bottom: 12px;">
-                    Design & Code by Isaac&nbsp;
-                    <a style="margin-bottom: 5px" href="" uk-scroll uk-totop></a>&nbsp;All Rights Reserved.
-                </h6>
-            </footer>
-            <!-- Footer end -->
+
+                        <li>
+                            <input class="filter" data-filter=".cms" type="checkbox" id="checkbox4">
+                            <label class="checkbox-label" for="checkbox4">CMS</label>
+                        </li>
+
+
+                        <li>
+                            <input class="filter" data-filter=".groupproject" type="checkbox" id="checkbox7">
+                            <label class="checkbox-label" for="checkbox7">Group Project</label>
+                        </li>
+
+
+
+                    </ul>
+                </div>
+
+
+
+            </form>
+
+            <a class="cd-close">Close</a>
+        </div>
+        <!-- cd-filter -->
+
+        <a class="cd-filter-trigger">
+            <!-- <p>Filters</p> -->
+        </a>
+    </main>
+    <!-- cd-main-content -->
+
+
+
+    <!-- Footer start -->
+    <footer class="footer uk-flex uk-flex-center uk-flex-middle uk-text-center uk-position-relative uk-position-bottom">
+        <h6 style="margin-bottom: 12px;">
+            Design & Code by Isaac&nbsp;
+            <a style="margin-bottom: 5px" href="" uk-scroll uk-totop></a>&nbsp;All Rights Reserved.
+        </h6>
+    </footer>
+    <!-- Footer end -->
 
 
     </div>
 
     <!-- Javascripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
-
+        crossorigin="anonymous">
+        </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-
-    <script src="js/uikit.js"></script>
-    <script src="js/uikit-icons.js"></script>
-
-    <script src="js/main.js"></script>
-    <script src="js/portfolio.js"></script>
+    <script src="js/uikit.min.js"></script>
+    <!-- <script src="js/uikit-icons.js"></script> -->
+    <script src="js/main.min.js"></script>
+    <script src="js/portfolio.min.js"></script>
     <script src="js/velocity.min.js"></script>
     <script src="js/velocity.ui.min.js"></script>
 
+    <!-- Faster page load with "instant.page" v1.2.1 - (C) 2019 Alexandre Dieulot - https://instant.page -->
+    <script src="//instant.page/1.2.1" type="module" integrity="sha384-/IkE5iZAM/RxPto8B0nvKlMzIyCWtYocF01PbGGp1qElJuxv9J4whdWBRtzZltWn"></script>
 
-    <!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 
 </html>

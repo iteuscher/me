@@ -15,7 +15,6 @@ select:-webkit-autofill:focus {
     transition: background-color 5000s ease-in-out 0s;
 }
 
-
 #plate.front {
     -webkit-transform: rotateY(0deg);
     -moz-transform: rotateY(0deg);
@@ -147,7 +146,6 @@ select:-webkit-autofill:focus {
     -o-transition: all 0.8s ease-in-out;
     -ms-transition: all 0.8s ease-in-out;
     transition: all 0.8s ease-in-out;
-
     width: 275px;
     height: 400px;
     top: 50px;
@@ -156,7 +154,7 @@ select:-webkit-autofill:focus {
     border-radius: 15px;
     background: hsl(0, 0%, 98%);
     padding-top: 5px;
-    margin:auto;
+    margin: auto;
 }
 
 @media (min-width: 340px) {
@@ -182,12 +180,12 @@ select:-webkit-autofill:focus {
     -o-transition: all 1s ease-in-out;
     -ms-transition: all 1s ease-in-out;
     transition: all 1s ease-in-out;
-        width: 150px;
-        height: 260px;
-        display: block;
-        position: absolute;
-        /* top: -200px; */
-        top: -210px;
+    width: 150px;
+    height: 260px;
+    display: block;
+    position: absolute;
+    /* top: -200px; */
+    top: -210px;
 }
 
 @media (min-width: 600px) {
@@ -391,7 +389,7 @@ select:-webkit-autofill:focus {
 }
 
 #container.hover .wing2 {
-    border-left: 75px solid  hsl(0, 0%, 85%); 
+    border-left: 75px solid hsl(0, 0%, 85%);
 }
 
 @media (min-width: 600px) {

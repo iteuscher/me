@@ -33,7 +33,7 @@ and [Denys Nevozhai](http://dnevozhai.com/)
 [Will King](https://codepen.io/Wking/pen/BdmpVx)
 
 - Expanding grid of divs from 
-[Code Rops](https://github.com/codrops/AnimatedGridLayout)
+[Codrops](https://github.com/codrops/AnimatedGridLayout)
 
 - [Vertical Timeline](http://codyhouse.co/gem/vertical-timeline/) by Cody House
 
@@ -44,5 +44,7 @@ Created by AJ (aj@lkn.io | @ajlkn)
 
 - Copy inspiration from
 [Matt Shirley Charts](https://www.mattshirleycharts.com/shop)
+
+- Faster page load with [instant.page](https://instant.page) by Alexandre Dieulot
 
 <!-- - Social media SVG icons and tooltip animation by Maciej Leszczyński (https://codepen.io/asistapl/pen/QEAgdA) -->

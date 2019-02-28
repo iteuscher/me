@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);
-
 .cd-modal p {
     font-size: 1.2rem;
     line-height: 1.2;
@@ -27,7 +26,6 @@
     padding-left: 10%
 }
 
-
 .project {
     padding: 2em;
     border-radius: 8px;
@@ -42,10 +40,125 @@
     font-family: Nunito, serif;
 }
 
+.text-above-image-fill {
+    display: inline;
+    text-align: center;
+}
+.text-above-image-fill h2 {
+    padding-top: 12px;
+    color: white !important;
+    background-color: transparent !important;
+}
+@import url("https://fonts.googleapis.com/css?family=Mukta:700");
+.arrow-expand-button-container {
+    font-family: 'Mukta', sans-serif;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    /* min-height: 100vh; */
+}
+
+.arrow-expand-button-container p 
+{
+    font-size: 1.1rem !important;
+}
+.arrow-expand-button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+.arrow-expand-button.learn-more {
+    width: 12rem;
+    height: auto;
+}
+
+.arrow-expand-button.learn-more .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #282936;
+    border-radius: 1.625rem;
+}
+
+.arrow-expand-button.learn-more .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+}
+
+.arrow-expand-button.learn-more .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+}
+
+.arrow-expand-button.learn-more .circle .icon.arrow::before {
+    position: absolute;
+    content: '';
+    top: -0.25rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.arrow-expand-button.learn-more .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.6rem 0;
+    margin: 0 0 0 3rem;
+    color: #282936;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.arrow-expand-button:hover .circle {
+    width: 110%;
+}
+
+.arrow-expand-button:hover .circle .icon.arrow {
+    background: #fff;
+    -webkit-transform: translate(1rem, 0);
+    transform: translate(1rem, 0);
+}
+
+.arrow-expand-button:hover .button-text {
+    color: #fff;
+}
+
+
+
+
 .project-image {
     /* min-height: 100px; */
 }
-
 
 .project .button-hover:before {
     width: 60%;
@@ -87,7 +200,6 @@
     background-size: 43% 43% !important;
 }
 
-
 .cd-filter-trigger {
     /* background-color: blue !important; */
     border-radius: 0 5px 5px 0;
@@ -95,19 +207,19 @@
     -webkit-border-radius: 0 5px 5px 0;
 }
 
-
-
-
 /* --------------------
         Modal 
 -------------------- */
+
 .modal {
     text-align: center;
     margin: 0 auto;
 }
+
 .modal a {
     text-decoration: none;
 }
+
 .cd-modal {
     position: fixed;
     top: 0;
@@ -125,15 +237,16 @@
 .cd-modal::after {
     /* gradient overlay at bottom of modal window */
     content: '';
-    position: absolute;
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 60px;
+    height: 50px; 
     pointer-events: none;
-    background: transparent;
-    background: -webkit-linear-gradient( bottom, #34383c, rgba(52, 56, 60, 0));
-    background: linear-gradient(to top, #34383c, rgba(52, 56, 60, 0));
+    /* background-color: #34383c; */
+    /* background: transparent; */
+    /* background: -webkit-linear-gradient( bottom, #34383c, rgba(52, 56, 60, 0));
+    background: linear-gradient(to top, #34383c, rgba(52, 56, 60, 0)); */
 }
 
 .cd-modal .cd-modal-content {
@@ -198,9 +311,6 @@
     background-color: white;
 }
 
-
-
-
 .cd-modal-action .btn {
     width: 10.5em;
     border-radius: 5em;
@@ -243,9 +353,7 @@
     -ms-transform: translateX(-2em);
     -o-transform: translateX(-2em);
     transform: translateX(-2em);
-
     /* transition: all 0.5s; */
-
     -webkit-transition: visibility 0s 0.5s;
     -moz-transition: visibility 0s 0.5s;
     transition: visibility 0s 0.5s;
@@ -254,20 +362,20 @@
 .cd-modal-action .cd-modal-bg.is-visible {
     opacity: 1;
     visibility: visible;
-
     /* !!!!!!!!! */
     width: 5em;
     z-index: 7;
 }
 
 .cd-modal-bg {
-    height: 100vh; 
+    height: 100vh;
     overflow: scroll !important;
 }
 
 /* .cd-modal-bg ~ body {
     overflow: initial;
 } */
+
 /* 
 .cd-modal-bg.is-visible ~ body {
     overflow:hidden
@@ -276,7 +384,7 @@
 .cd-modal-close {
     position: fixed;
     z-index: 20;
-    top: 20px;
+    top: 70px;
     right: 5%;
     height: 50px;
     width: 50px;
@@ -320,12 +428,11 @@
     transform: scale(1);
 }
 
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) {
     .cd-modal-close {
-        top: 70px;
+        top: 40px;
     }
 }
-
 
 /* -------------------------------- 
     Cody House content filter
@@ -409,8 +516,7 @@
     }
 }
 
-
-.cd-gallery{
+.cd-gallery {
     transition: 0s !important;
 }
 
@@ -529,7 +635,6 @@ main ul {
     margin-bottom: 1.5em;
 }
 
-
 @media only screen and (min-width: 768px) {
     .cd-tab-filter {
         /* tabbed navigation style on medium devices */
@@ -567,8 +672,8 @@ main ul {
     .cd-tab-filter a.selected {
         background: transparent;
         color: #448F49; */
-        /* create border bottom using box-shadow property */
-        /* box-shadow: inset 0 -2px 0 #448F49;
+    /* create border bottom using box-shadow property */
+    /* box-shadow: inset 0 -2px 0 #448F49;
     } */
     .cd-tab-filter.is-open ul li {
         display: inline-block;
@@ -633,12 +738,10 @@ main ul {
     opacity: 1;
 }
 
-
 .cd-gallery li {
     width: 70%;
     margin: 6%;
 }
-
 
 @media only screen and (min-width: 768px) {
     .cd-gallery {
@@ -786,7 +889,6 @@ main ul {
     background: transparent url("../images/icons/cd-icon-filter.svg") no-repeat center center;
 }
 
-
 .cd-main-content.is-fixed .cd-filter-trigger {
     margin-left: 58px;
     border-left: 4px solid white !important;
@@ -806,9 +908,9 @@ main ul {
     }
 }
 
-    .cd-filter.filter-is-visible~.cd-filter-trigger {
-        z-index: 6;
-    }
+.cd-filter.filter-is-visible~.cd-filter-trigger {
+    z-index: 6;
+}
 
 .cd-filter-trigger.filter-is-visible {
     pointer-events: none;
@@ -837,7 +939,6 @@ main ul {
         color: #ffffff;
     }
 }
-
 
 /* -------------------------------- 
                     xcustom form elements 
@@ -1070,10 +1171,10 @@ main ul {
     }
 }
 
-
 /* -------------------------------
     Scroll effect and button to make background white 
 ---------------------------------- */
+
 .dark-container {
     display: flex;
     flex-direction: column;
@@ -1082,7 +1183,6 @@ main ul {
     width: 100%;
     height: 100vh;
     font-family: 'Nunito', sans-serif;
-
 }
 
 .logo {
@@ -1118,21 +1218,21 @@ main ul {
 
 /* Pulsing button */
 
-.bg,
-.button {
-    margin-top: 80px;
+.pulsing-bg,
+.pulsing-button {
+    margin-top: 25em;
     position: absolute;
     width: 50px;
     height: 50px;
     border-radius: 100%;
 }
 
-.bg {
+.pulsing-bg {
     animation: pulse 1.2s ease infinite;
     background: #ff3466;
 }
 
-.button {
+.pulsing-button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1145,11 +1245,15 @@ main ul {
     outline: none;
 }
 
-.button a {
+.pulsing-button a {
     position: absolute;
     color: #FFF;
     background-size: 1.2rem;
     outline: none;
+}
+.pulsing-button svg
+{
+    color: white;
 }
 
 @keyframes pulse {
