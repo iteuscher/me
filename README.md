@@ -4,7 +4,10 @@
 **[Go to the Website!](https://isaacteuscher.com)**
 
 ## Status
-The site is live! but it still needs some fixing. Project started in June 2018.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/271b3e22-9d19-4ffe-a153-93e5e04e68fc/deploy-status)](https://app.netlify.com/projects/isaacteuscher/deploys)
+[![pages build and deployment](https://github.com/iteuscher/me/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/iteuscher/me/actions/workflows/pages/pages-build-deployment)
+
+The website is live! Project started in June 2018. No AI used! This is a vintage HTML/CSS/JS website made by typing out code and some copying from Stack Overflow (do you remember those days?)
 
 ## About
 This is my latest attempt at making a personal website. I tried to make it elegant and responsive and included several features from various other developers (see Acknowledgements).
